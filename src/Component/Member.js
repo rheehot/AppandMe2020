@@ -1,16 +1,21 @@
 import React, {Component} from 'react';
+import styled from 'styled-components';
 import './Member.css';
 
 class Member extends Component {
     render(){
+        
+        const {url} = this.props;
+        const {img} = this.props;
         return (
             <div className="member">
-                <a href="http://facebook.com" target="_blank"><div className="mem-img">이미지</div></a>
-        <div className="mem-name">{this.props.name}</div>
-        <div className="mem-major">{this.props.major}</div>
+                <a href={url} target="_blank"><img src={img} className="mem-img"/></a>
+                <div className="mem-name">{this.props.name}</div>
+                <div className="mem-major">{this.props.major}</div>
             </div>
         )
     }
+
 }
 
 Member.defaultProps = {
