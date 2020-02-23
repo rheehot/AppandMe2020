@@ -24,7 +24,7 @@ class App extends Component{
         <div className="header">
           <ul>
             <li>
-              <div className="header-img">이미지</div>
+              <div className="header-img">로고</div>
               <NavLink to="/">APP &#38; ME</NavLink>
             </li>
             <li>

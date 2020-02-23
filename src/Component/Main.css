@@ -10,6 +10,8 @@
 }
 
 .main .wrap-btn{
+    width: 100%;
+    height: 60px;
 }
 
 .main .wrap-btn .btn{

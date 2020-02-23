@@ -28,5 +28,9 @@
 
 .header ul li:first-child .header-img{
     float:left;
-    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-color: #aaa;
 }
