@@ -5,11 +5,11 @@ import './Member.css';
 class Member extends Component {
     render(){
         
-        const {url} = this.props;
+        const {facebookUrl} = this.props;
         const {img} = this.props;
         return (
             <div className="member">
-                <a href={url} target="_blank"><img src={img} className="mem-img"/></a>
+                <a href={facebookUrl} target="_blank"><img src={img} className="mem-img"/></a>
                 <div className="mem-name">{this.props.name}</div>
                 <div className="mem-major">{this.props.major}</div>
             </div>
