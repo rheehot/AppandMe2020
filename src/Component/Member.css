@@ -1,0 +1,13 @@
+.member{
+    width: 300px;
+    height: 400px;
+    background: yellow;
+}
+
+.member a:hover, .member a:active, .member a, .member a:visited{
+    text-decoration: none;
+    color:black;
+}
+.member .mem-img{
+    background-color: pink;
+}

@@ -1,0 +1,23 @@
+.main{}
+
+.main ul{
+    list-style: none;
+    padding: 0;
+}
+
+.main ul li{
+    margin-top: 15px;
+}
+
+.main .wrap-btn{
+}
+
+.main .wrap-btn .btn{
+    background: #ccc;
+    width : 130px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+}   
