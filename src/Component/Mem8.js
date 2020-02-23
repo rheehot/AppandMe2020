@@ -16,7 +16,7 @@ class Mem8 extends Component{
                 {
                     name: "맹수연",
                     major: "뉴미디어소프트웨어과",
-                    img: "",
+                    img: "https://raw.githubusercontent.com/Sookhee/App_and_Me_Website2020/master/public/img/%EB%A7%B9%EC%88%98%EC%97%B0.jpg?token=ALJWDNN5JV2JIOZPNK3UT3S6LO3XK",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100011719852951"
                 },
                 {
