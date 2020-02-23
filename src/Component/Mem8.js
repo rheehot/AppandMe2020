@@ -28,7 +28,7 @@ class Mem8 extends Component{
                 {
                     name: "함형연",
                     major: "뉴미디어솔루션과",
-                    img: "",
+                    //img: "",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100008652840731"
                 },
                 {
@@ -40,7 +40,7 @@ class Mem8 extends Component{
                 {
                     name: "오연서",
                     major: "뉴미디어디자인과",
-                    img: "",
+                    //img: "",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100009078326333"
                 }
             ]

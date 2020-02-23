@@ -16,25 +16,25 @@ class Mem7 extends Component{
                 {
                     name: "소민지",
                     major: "뉴미디어소프트웨어과",
-                    img: "",
+                    //img: "",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100009610962191"
                 },
                 {
                     name: "이현수",
                     major: "뉴미디어솔루션과",
-                    img: "",
+                    //img: "",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100009075758105"
                 },
                 {
                     name: "서채원",
                     major: "뉴미디어디자인과",
-                    img: "",
+                    img: "https://raw.githubusercontent.com/Sookhee/App_and_Me_Website2020/master/public/img/%EC%84%9C%EC%B1%84%EC%9B%90.jpg?token=ALJWDNMEIEUMPVBUFIE6G526LPKK2",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100009601390266"
                 },
                 {
                     name: "윤주하",
                     major: "뉴미디어디자인과",
-                    img: "",
+                    //img: "",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100000911379372"
                 },
                 {
