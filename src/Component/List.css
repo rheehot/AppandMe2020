@@ -1,0 +1,30 @@
+.apply-data{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.apply-data .student{
+    width: 300px;
+    height: 440px;
+    padding: 10px;
+    background: yellow;
+    float:left;
+    margin: 20px;
+}
+
+.apply-data .student div{
+    margin-bottom: 10px;
+}
+
+.apply-data .student span{
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.apply-data .student .list-title{
+    font-weight: bold;
+}
+
+.apply-data .student .list-ident{
+    font-weight: normal;
+}

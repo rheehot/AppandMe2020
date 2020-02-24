@@ -10,6 +10,7 @@ import Members from './Component/Members';
 import Apply from './Component/Apply';
 import QA from './Component/QA';
 import FA from './Component/FA';
+import Only from './Component/Only';
 import Quiz from './Component/Quiz';
 
 class App extends Actions {
@@ -56,6 +57,9 @@ class App extends Actions {
               <li>
                 <NavLink to="/About" activeStyle={{color:'#FF48D2'}}>About</NavLink>
               </li>
+              <li>
+                <NavLink to="/Only">O</NavLink>
+              </li>
             </ul>
           </div>
           <Route path="/" component={Main} exact="true"/>
@@ -65,6 +69,7 @@ class App extends Actions {
           <Route path="/FA" component={FA}/>
           <Route path="/QA" component={QA}/>
           <Route path="/Quiz" component={Quiz}/>
+          <Route path="/Only" component={Only}/>
           <Footer/>
         </div>
       </Provider>

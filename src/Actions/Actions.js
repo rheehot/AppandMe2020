@@ -109,12 +109,12 @@ class Actions extends React.Component{
     }
 
     // INSERT USER
-    insertUser = (event,user_name,user_email, self, why, t1, t2, t3, t4, t5) => {
+    insertUser = (event,code,name, self, why, t1, t2, t3, t4, t5) => {
         event.preventDefault();
         event.persist();
         Axios.post('http://localhost/php-react/add-user.php',{
-            user_name:user_name,
-            user_email:user_email,
+            code:code,
+            name:name,
             self:self,
             why:why,
             t1:t1,
@@ -127,7 +127,7 @@ class Actions extends React.Component{
             if(data.success === 1){
                 this.setState({
                     users:[
-                        {"id":data.id,"user_name":user_name,"user_email":user_email,"self":self,"why":why,"t1":t1,"t2":t2,"t3":t3,"t4":t4,"t5":t5},
+                        {"id":data.id,"code":code,"name":name,"self":self,"why":why,"t1":t1,"t2":t2,"t3":t3,"t4":t4,"t5":t5},
                         ...this.state.users
                     ]
                 });
