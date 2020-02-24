@@ -18,30 +18,30 @@ class Apply extends Component {
                     <table border="1">
                         <tr>
                             <td>학번</td>
-                            <td><input type="text" name="user_name" ref={(val) => this.user_name = val}></input></td>
+                            <td><input type="text" name="user_name" ref={(val) => this.user_name = val} className="form-control"></input></td>
                             <td>이름</td>
-                            <td><input type="text" name="user_email" ref={(val) => this.user_email = val}></input></td>
+                            <td><input type="text" name="user_email" ref={(val) => this.user_email = val} className="form-control"></input></td>
                         </tr>
                         <tr>
                             <td>자기소개</td>
-                            <td colSpan="3"><input type="text" name="self" ref={(val) => this.self = val}></input></td>
+                            <td colSpan="3"><input type="text" name="self" ref={(val) => this.self = val} className="form-control"></input></td>
                         </tr>
                         <tr>
                             <td>지원동기</td>
-                            <td colSpan="3"><input type="text" name="why" ref={(val) => this.why = val}></input></td>
+                            <td colSpan="3"><input type="text" name="why" ref={(val) => this.why = val} className="form-control"></input></td>
                         </tr>
                         <tr>
                             <td>5글자 표현</td>
                             <td colSpan="3">
-                                <input type="text" className="five" name="text1" ref={(val) => this.text1 = val}></input>
-                                <input type="text" className="five" name="text2" ref={(val) => this.text2 = val}></input>
-                                <input type="text" className="five" name="text3" ref={(val) => this.text3 = val}></input>
-                                <input type="text" className="five" name="text4" ref={(val) => this.text4 = val}></input>
-                                <input type="text" className="five" name="text5" ref={(val) => this.text5 = val}></input>
+                                <input type="text" className="five" name="text1" ref={(val) => this.text1 = val} className="form-control"></input>
+                                <input type="text" className="five" name="text2" ref={(val) => this.text2 = val} className="form-control"></input>
+                                <input type="text" className="five" name="text3" ref={(val) => this.text3 = val} className="form-control"></input>
+                                <input type="text" className="five" name="text4" ref={(val) => this.text4 = val} className="form-control"></input>
+                                <input type="text" className="five" name="text5" ref={(val) => this.text5 = val} className="form-control"></input>
                             </td>
                         </tr>
                         <tr>
-                            <td colSpan="4"><button type="submit">제출하기</button></td>
+                            <td colSpan="4"><button type="submit" className="" onClick={() => alert('처리중입니다\n잠시만 기다려주세요')}>제출하기</button></td>
                         </tr>
                     </table>
                 </form>
