@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import styled from 'styled-components';
 import './Member.css';
 
 class Member extends Component {
@@ -19,7 +18,7 @@ class Member extends Component {
 
 Member.defaultProps = {
     name: '기본이름',
-    img: 'https://github.com/Sookhee/App_and_Me_Website2020/blob/master/public/img/%EC%84%9C%EC%B1%84%EC%9B%90.jpg?raw=true'
+    img: 'https://raw.githubusercontent.com/Sookhee/App_and_Me_Website2020/master/public/img/default-img.png?token=ALJWDNLFFFK3AOTY3VPB34K6LPLF6'
 };
 
 export default Member;

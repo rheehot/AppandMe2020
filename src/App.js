@@ -1,4 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Actions from './Actions/Actions';
+import {Provider} from './Context';
 import './App.css';
 import {Route, NavLink} from 'react-router-dom';
 import Footer from './Component/Footer';
@@ -10,7 +12,7 @@ import QA from './Component/QA';
 import FA from './Component/FA';
 import Quiz from './Component/Quiz';
 
-class App extends Component{
+class App extends Actions {
 
   componentWillMount(){
     console.log("%cApp&Me is Alawys Best!", 'color:pink; font-size:25px;');
@@ -19,40 +21,53 @@ class App extends Component{
   }
 
   render(){
+
+    const contextValue = {
+      all_users:this.state.users,
+      get_users:this.fetchUsers,
+      editMode:this.editMode,
+      cancelEdit:this.cancelEdit,
+      handleUpdate:this.handleUpdate,
+      handleDelete:this.handleDelete,
+      insertUser:this.insertUser
+  }
+
     return (
-      <div className="App">
-        <div className="header">
-          <ul>
-            <li>
-              <div className="header-img">로고</div>
-              <NavLink to="/">APP &#38; ME</NavLink>
-            </li>
-            <li>
-              <NavLink to="/QA" activeStyle={{color:'#FF48D2'}}>Q&#38;A</NavLink>
-            </li>
-            <li>
-              <NavLink to="/FA" activeStyle={{color:'#FF48D2'}}>F&#38;A</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Apply" activeStyle={{color:'#FF48D2'}}>Apply</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Members" activeStyle={{color:'#FF48D2'}}>Members</NavLink>
-            </li>
-            <li>
-              <NavLink to="/About" activeStyle={{color:'#FF48D2'}}>About</NavLink>
-            </li>
-          </ul>
+      <Provider value={contextValue}>
+        <div className="App">
+          <div className="header">
+            <ul>
+              <li>
+                <div className="header-img">로고</div>
+                <NavLink to="/">APP &#38; ME</NavLink>
+              </li>
+              <li>
+                <NavLink to="/QA" activeStyle={{color:'#FF48D2'}}>Q&#38;A</NavLink>
+              </li>
+              <li>
+                <NavLink to="/FA" activeStyle={{color:'#FF48D2'}}>F&#38;A</NavLink>
+              </li>
+              <li>
+                <NavLink to="/Apply" activeStyle={{color:'#FF48D2'}}>Apply</NavLink>
+              </li>
+              <li>
+                <NavLink to="/Members" activeStyle={{color:'#FF48D2'}}>Members</NavLink>
+              </li>
+              <li>
+                <NavLink to="/About" activeStyle={{color:'#FF48D2'}}>About</NavLink>
+              </li>
+            </ul>
+          </div>
+          <Route path="/" component={Main} exact="true"/>
+          <Route path="/About" component={About}/>
+          <Route path="/Members" component={Members}/>
+          <Route path="/Apply" component={Apply}/>
+          <Route path="/FA" component={FA}/>
+          <Route path="/QA" component={QA}/>
+          <Route path="/Quiz" component={Quiz}/>
+          <Footer/>
         </div>
-        <Route path="/" component={Main} exact="true"/>
-        <Route path="/About" component={About}/>
-        <Route path="/Members" component={Members}/>
-        <Route path="/Apply" component={Apply}/>
-        <Route path="/FA" component={FA}/>
-        <Route path="/QA" component={QA}/>
-        <Route path="/Quiz" component={Quiz}/>
-        <Footer/>
-      </div>
+      </Provider>
     )
   }
 }
