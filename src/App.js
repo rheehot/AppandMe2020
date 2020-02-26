@@ -9,6 +9,7 @@ import About from './Component/About';
 import Members from './Component/Members';
 import Apply from './Component/Apply';
 import QA from './Component/QA';
+import QAWrite from './Component/QAWrite';
 import FA from './Component/FA';
 import Only from './Component/Only';
 import Quiz from './Component/Quiz';
@@ -25,12 +26,11 @@ class App extends Actions {
 
     const contextValue = {
       all_users:this.state.users,
+      all_posts:this.state.posts,
       get_users:this.fetchUsers,
-      editMode:this.editMode,
-      cancelEdit:this.cancelEdit,
-      handleUpdate:this.handleUpdate,
-      handleDelete:this.handleDelete,
-      insertUser:this.insertUser
+      insertUser:this.insertUser,
+      get_posts:this.fetchPosts,
+      insertPost:this.insertPost
   }
 
     return (
@@ -70,6 +70,7 @@ class App extends Actions {
           <Route path="/QA" component={QA}/>
           <Route path="/Quiz" component={Quiz}/>
           <Route path="/Only" component={Only}/>
+          <Route path="/QAWrite" component={QAWrite}/> 
           <Footer/>
         </div>
       </Provider>
