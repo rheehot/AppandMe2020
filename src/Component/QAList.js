@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {AppContext} from '../Context';
+import {Link} from 'react-router-dom';
+
 class QAList extends Component{
     static contextType = AppContext;
 
@@ -18,12 +20,9 @@ class QAList extends Component{
         allPosts = this.context.all_posts.map(({id,writer,title,cont}) => {
             return (
                 <tr key={id}>
+                    <td>{id}</td>
                     <td>{writer}</td>
-                    <td>{title}</td>
-                    <td>
-                        <button className="" onClick={() => this.context.editMode(id)}>Edit</button>
-                        <button onClick={() => this.context.handleDelete(id)} className="">Delete</button>
-                    </td>
+                    <td><Link to="/QADetail">{title}</Link></td>
                 </tr>
             );
         });
@@ -33,9 +32,9 @@ class QAList extends Component{
                 <table className="">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Actions</th>
+                            <th>번호</th>
+                            <th>작성자</th>
+                            <th>제목</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -56,6 +55,7 @@ class QAList extends Component{
         return(
             <>
             {mainData}
+            <Link to="/QAWrite">작성</Link>
             </>
         );
     }
