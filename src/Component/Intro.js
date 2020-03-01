@@ -5,10 +5,10 @@ class Intro extends Component{
 
     render(){
         return (
-            <div>
-                <h1>{this.props.title}</h1>
-                <div>{this.props.notice1}</div>
-                <div>{this.props.notice2}</div>
+            <div className="intro">
+                <div className="title">{this.props.title}</div>
+                <div className="notice">{this.props.notice1}</div>
+                <div className="notice">{this.props.notice2}</div>
                 <hr/>
             </div>
         )

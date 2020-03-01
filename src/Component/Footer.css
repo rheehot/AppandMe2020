@@ -1,6 +1,7 @@
 .footer{
     height: 200px;
     background-color: #ffb0b8;
+    clear: both;
 }
 
 .footer .wrap-contact{

@@ -13,7 +13,7 @@ class Apply extends Component {
     render(){
         return (
             <div class="apply">
-                <Intro title="Apply" notice1="앱앤미 지원을 결심하셨군요! 좋은 결과 있길 바라요^^" notice2="* 제출 후 수정이 불가하니 성심성의껏 작성해주시면 감사하겠습니다."/>
+                <Intro title="APPLY" notice1="앱앤미 지원을 결심하셨군요! 좋은 결과 있길 바라요^^" notice2="* 제출 후 수정이 불가하니 성심성의껏 작성해주시면 감사하겠습니다."/>
                 <form onSubmit={this.insertUser}>
                     <table border="1">
                         <tr>

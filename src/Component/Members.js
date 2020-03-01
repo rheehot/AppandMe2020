@@ -8,20 +8,18 @@ import Intro from './Intro';
 class Members extends Component{
 
     render(){
-        return (
+        return(
             <div className="members">
-                <Intro title="Members" notice1="여러분과 함께 할 앱앤미 부원들을 소개합니다." notice2="* 사진을 클릭하면 페이스북으로 이동해요."/>
-                <ul>
-                    <li>
-                        <NavLink to="/Members/7th" activeStyle={{color:'#FF48D2'}}>7기</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/Members/8th" activeStyle={{color:'#FF48D2'}}>8기</NavLink>
-                    </li>
-                </ul>
+                <Intro title="MEMBERS" notice1="여러분과 함께 할 앱앤미의 부원들을 소개합니다." notice2="* 사진을 클릭하면 페이스북으로 이동해요^^"/>
+                <div className="wrap-link">
+                    <NavLink to="/Members" activeStyle={{color:'#ffb0b8'}} exact="true">7기 앱앤미</NavLink>
+                    <div className="link-br"></div>
+                    <NavLink to="/Members/8th" activeStyle={{color:'#ffb0b8'}}>8기 앱앤미</NavLink>
+                </div>
                 <Route path="/Members" component={Mem7} exact="true"/>
-                <Route path="/Members/7th" component={Mem7}/>
                 <Route path="/Members/8th" component={Mem8}/>
+
+                <br/>
             </div>
         )
     }

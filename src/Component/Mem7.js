@@ -10,7 +10,7 @@ class Mem7 extends Component{
                 {
                     name: "정민지",
                     major: "뉴미디어소프트웨어과",
-                    img: "https://raw.githubusercontent.com/Sookhee/App_and_Me_Website2020/master/public/img/%EC%A0%95%EB%AF%BC%EC%A7%80.jpg?token=ALJWDNPPV45WIIDE5OUUIP26LOUV6",
+                    img: "https://github.com/Sookhee/App_and_Me_Website2020/blob/master/public/img/%EC%A0%95%EB%AF%BC%EC%A7%80.jpg?raw=true",
                     facebookUrl: "https://www.facebook.com/MinjiJeong02"
                 },
                 {
@@ -22,13 +22,14 @@ class Mem7 extends Component{
                 {
                     name: "이현수",
                     major: "뉴미디어솔루션과",
+                    img: "https://github.com/Sookhee/App_and_Me_Website2020/blob/master/public/img/%EC%9C%A4%EC%A3%BC%ED%95%98.jpg?raw=true",
                     //img: "",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100009075758105"
                 },
                 {
                     name: "서채원",
                     major: "뉴미디어디자인과",
-                    img: "https://raw.githubusercontent.com/Sookhee/App_and_Me_Website2020/master/public/img/%EC%84%9C%EC%B1%84%EC%9B%90.jpg?token=ALJWDNMEIEUMPVBUFIE6G526LPKK2",
+                    img: "https://github.com/Sookhee/App_and_Me_Website2020/blob/master/public/img/%EC%84%9C%EC%B1%84%EC%9B%90.jpg?raw=true",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100009601390266"
                 },
                 {
@@ -40,7 +41,7 @@ class Mem7 extends Component{
                 {
                     name: "주선우",
                     major: "뉴미디어디자인과",
-                    img: "https://raw.githubusercontent.com/Sookhee/App_and_Me_Website2020/master/public/img/%EC%A3%BC%EC%84%A0%EC%9A%B0.jpg?token=ALJWDNOW6HA6PZU2COVKDAC6LOUYW",
+                    img: "https://github.com/Sookhee/App_and_Me_Website2020/blob/master/public/img/%EC%A3%BC%EC%84%A0%EC%9A%B0.jpg?raw=true",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100004550599183"
                 }
             ]
@@ -58,6 +59,7 @@ class Mem7 extends Component{
                                     key={i}
                         />);
                     })}
+                    <div className="clear"></div>
             </div>
         )
     }

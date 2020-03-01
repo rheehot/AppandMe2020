@@ -1,5 +1,9 @@
 .mems{
-    width: 1200px;
-    height: 900px;
-    margin: 0 auto;
+    width: 900px;
+    margin-right: 243px;
+    float: right;
+}
+
+.clear{
+    clear: both;
 }

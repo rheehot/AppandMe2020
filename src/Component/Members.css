@@ -1,21 +1,22 @@
 .members{}
 
-.members ul{
-    list-style: none;
-    width: 100%;
-    height: 40px;
-    margin: 0 0 10px 0;
-    padding: 0;
-    
+.members .wrap-link{
+    margin-left: 243px;
+    float: left;
+}
+
+.members .wrap-link .link-br{
+    height: 33px;
 }
 
 .members a, .members a:hover, .members a:visited, .members a:active{
-    color: black;
+    font-family: NotoSansCJKKR;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
     text-decoration: none;
-}
-
-.members ul li{
-    line-height: 40px;
-    float: left;
-    margin-right: 20px;
 }
