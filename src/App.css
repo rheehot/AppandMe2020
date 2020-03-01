@@ -1,25 +1,36 @@
 .header{
     width: 100%;
-    height: 60px;
-    background-color: #eee;
+    height: 120px;
+    background-color: #ffffff;
 }
 
-.header a, .header:hover, .header a:active, .header a:visited{
-    color: black;
+.header .nav-title, .header .nav-title:hover, .header .nav-title:active, .header .nav-title:visited{
+    font-family: NotoSansCJKKR;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 116px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
 }
 
 .header ul{
-    margin: 0 auto;
-    width: 80%;
-    height: 100%;
+    margin: 0 243px;
+    padding: 0;
 }
 
 .header ul li{
     line-height: 60px;
-    margin-right: 2%;
+    margin-right: 64px;
     list-style: none;   
     float: right;
+}
+
+.header ul li:nth-child(2){
+    margin: 0;
 }
 
 .header ul li:first-child{
@@ -28,9 +39,22 @@
 
 .header ul li:first-child .header-img{
     float:left;
-    width: 50px;
-    height: 50px;
-    margin-top: 5px;
-    margin-right: 20px;
-    background-color: #aaa;
+    width: 54px;
+    height: 54px;
+    background-image: url('./app-and-me-logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 35px;
+}
+
+
+.header .logo-title{
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 120px;
+    letter-spacing: normal;
+    margin-left: 20px;
+    color: #000000;
 }

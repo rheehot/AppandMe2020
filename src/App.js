@@ -39,27 +39,27 @@ class App extends Actions {
           <div className="header">
             <ul>
               <li>
-                <div className="header-img">로고</div>
-                <NavLink to="/">APP &#38; ME</NavLink>
+                <div className="header-img"></div>
+                <NavLink className="nav-title" to="/"><span className="logo-title">APP &#38; ME</span></NavLink>
               </li>
               <li>
-                <NavLink to="/QA" activeStyle={{color:'#FF48D2'}}>Q&#38;A</NavLink>
+                <NavLink className="nav-title"to="/QA" activeStyle={{color:'#ffb0b8'}}>Q&#38;A</NavLink>
               </li>
               <li>
-                <NavLink to="/FA" activeStyle={{color:'#FF48D2'}}>F&#38;A</NavLink>
+                <NavLink className="nav-title"to="/FA" activeStyle={{color:'#ffb0b8'}}>F&#38;A</NavLink>
               </li>
               <li>
-                <NavLink to="/Apply" activeStyle={{color:'#FF48D2'}}>Apply</NavLink>
+                <NavLink className="nav-title"to="/Apply" activeStyle={{color:'#ffb0b8'}}>APPLY</NavLink>
               </li>
               <li>
-                <NavLink to="/Members" activeStyle={{color:'#FF48D2'}}>Members</NavLink>
+                <NavLink className="nav-title"to="/Members" activeStyle={{color:'#ffb0b8'}}>MEMBERS</NavLink>
               </li>
               <li>
-                <NavLink to="/About" activeStyle={{color:'#FF48D2'}}>About</NavLink>
+                <NavLink className="nav-title"to="/About" activeStyle={{color:'#ffb0b8'}}>ABOUT</NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink to="/Only">O</NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
           <Route path="/" component={Main} exact="true"/>
