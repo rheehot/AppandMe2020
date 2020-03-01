@@ -16,7 +16,7 @@ class Mem7 extends Component{
                 {
                     name: "소민지",
                     major: "뉴미디어소프트웨어과",
-                    //img: "",
+                    img: "https://github.com/Sookhee/App_and_Me_Website2020/blob/master/public/img/%EC%86%8C%EB%AF%BC%EC%A7%80.jpg?raw=true",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100009610962191"
                 },
                 {
@@ -34,7 +34,7 @@ class Mem7 extends Component{
                 {
                     name: "윤주하",
                     major: "뉴미디어디자인과",
-                    //img: "",
+                    img: "https://github.com/Sookhee/App_and_Me_Website2020/blob/master/public/img/%EC%9C%A4%EC%A3%BC%ED%95%98.jpg?raw=true",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100000911379372"
                 },
                 {

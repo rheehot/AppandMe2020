@@ -10,19 +10,26 @@ class QAList extends Component{
     }
 
     handleUpdate = (id) => {
-        this.context.handleUpdate(id,this.writer.value,this.title.value,this.cont.value);
+        this.context.handleUpdate(id,this.writer.value,this.title.value,this.cont.value,this.reply.value,this.writetime.value);
     }
 
     render(){
         let allPosts;
         let mainData;
         
-        allPosts = this.context.all_posts.map(({id,writer,title,cont}) => {
+        allPosts = this.context.all_posts.map(({id,writer,title,cont,reply,writetime}) => {
             return (
-                <tr key={id}>
+                <tr>
                     <td>{id}</td>
+                    <td><Link to={{
+                        pathname: "/QADetail",
+                        state:{
+                            id:`${title}`,
+                            title:`${title}`
+                        }
+                    }}>{title}</Link></td>
                     <td>{writer}</td>
-                    <td><Link to="/QADetail">{title}</Link></td>
+                    <td>{writetime}</td>
                 </tr>
             );
         });
@@ -33,8 +40,9 @@ class QAList extends Component{
                     <thead>
                         <tr>
                             <th>번호</th>
-                            <th>작성자</th>
                             <th>제목</th>
+                            <th>작성자</th>
+                            <th>작성시간</th>
                         </tr>
                     </thead>
                     <tbody>

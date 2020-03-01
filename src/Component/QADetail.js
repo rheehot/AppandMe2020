@@ -1,10 +1,11 @@
 import React,{Component} from 'react';
-import {Link} from 'react-router-dom';
 
 class QADetail extends Component{
     render(){
         return(
-            <div></div>
+            <div>
+                {this.props.location.state.title}
+            </div>
         )
     }
 }

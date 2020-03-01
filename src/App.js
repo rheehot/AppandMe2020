@@ -13,7 +13,6 @@ import QAWrite from './Component/QAWrite';
 import FA from './Component/FA';
 import Only from './Component/Only';
 import QADetail from './Component/QADetail';
-import Quiz from './Component/Quiz';
 
 class App extends Actions {
 
@@ -69,7 +68,6 @@ class App extends Actions {
           <Route path="/Apply" component={Apply}/>
           <Route path="/FA" component={FA}/>
           <Route path="/QA" component={QA}/>
-          <Route path="/Quiz" component={Quiz}/>
           <Route path="/Only" component={Only}/>
           <Route path="/QADetail" component={QADetail}/>
           <Route path="/QAWrite" component={QAWrite}/> 

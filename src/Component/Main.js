@@ -16,7 +16,6 @@ const Main = () => {
 
             <div className="wrap-btn">
                 <Link to="/Apply"><div className="btn btn-apply">바로 지원하기</div></Link>
-                <Link to="/Quiz"><div  className="btn btn-quiz">퀴즈 풀기</div></Link>
             </div>
             <br/>
         </div>

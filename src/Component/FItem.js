@@ -4,11 +4,11 @@ import './FItem.css';
 class FA extends Component{
     render(){
         const {data} = this.props;
-        const {stat} = this.props;
+        const {door} = this.props;
         console.log(data);
         return (
             <div className="frequently">
-                <details $stat>
+                <details>
                     <summary>{this.props.title}</summary>
                     {
                     data.split('@').map( line => {
