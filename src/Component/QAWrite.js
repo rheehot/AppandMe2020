@@ -36,7 +36,7 @@ class QAWrite extends Component {
                     <input type="text" name="cont" ref={(val) => this.cont = val} className="" placeholder="Email"/>
                 </div>
                 <div className="">
-                    <button type="submit" className="" onClick={this.goBack}>Add user</button>
+                    <button type="submit" className="" onClick={this.goBack}>Submit</button>
                 </div>
             </div>
         </form>  

@@ -8,7 +8,7 @@ class Member extends Component {
         const {img} = this.props;
         return (
             <div className="member">
-                <a href={facebookUrl} target="blank"><img src={img} className="mem-img"/></a>
+                <a href={facebookUrl} target="blank"><img src={img} alt="member-img" className="mem-img"/></a>
                 <div className="mem-name">{this.props.name}</div>
                 <div className="mem-major">{this.props.major}</div>
             </div>
