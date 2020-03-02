@@ -1,0 +1,80 @@
+@import './fonts.css';
+
+.main{
+    width: 1920px;
+    background-image : url('../../main-img.png');
+	background-repeat : no-repeat;
+    background-size : cover;
+    padding-bottom: 243px;
+}
+
+.main .main-title{
+    font-family: 'NotoSansCJKKr Regular';
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding: 115px 0 0 242px;
+    margin-bottom: 100px;
+}
+
+.main ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 242px;
+}
+.main ul li:first-child{
+    text-shadow: 0 3px 99px rgba(0, 0, 0, 0.16);
+    font-size: 26px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.main ul li{
+    font-family: 'NotoSansCJKKr Regular';
+    text-shadow: 0 3px 99px rgba(0, 0, 0, 0.16);
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+
+.main ul li:last-child{
+    margin-bottom: 46px;
+}
+
+
+.main .wrap-btn{
+    width: 148px;
+    height: 44px;
+    border: solid 2px #ffffff;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 44px;
+    margin-left: 243px;
+}
+
+.main a, .main a:hover, .main a:active, .main a:visited{
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: 'NotoSansCJKKr Bold';
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 44px;
+    letter-spacing: normal;
+    text-decoration: none;
+    color: #ffffff;
+}

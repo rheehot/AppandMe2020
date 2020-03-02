@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Fake.css';
+import '../styles/css/Fake.css';
 
 class Fake extends Component{
 

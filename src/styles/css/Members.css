@@ -1,0 +1,23 @@
+.members{
+    width: 1920px;
+}
+
+.members .wrap-link{
+    margin-left: 243px;
+    float: left;
+}
+
+.members .wrap-link .link-br{
+    height: 33px;
+}
+
+.members a, .members a:hover, .members a:visited, .members a:active{
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    text-decoration: none;
+}

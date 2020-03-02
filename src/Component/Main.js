@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './Main.css';
+import '../styles/css/Main.css';
 
 const Main = () => {
     return (

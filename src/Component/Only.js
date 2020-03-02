@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import List from './List';
-import './Only.css';
+import '../styles/css/Only.css';
 import Fake from './Fake';
 
 class Only extends Component {

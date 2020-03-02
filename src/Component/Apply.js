@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import Intro from './Intro';
-import './Apply.css';
+import '../styles/css/Apply.css';
 import {AppContext} from '../Context';
 
 class Apply extends Component {

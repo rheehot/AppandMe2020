@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './FItem.css';
+import '../styles/css/FItem.css';
 
 class FA extends Component{
     render(){
@@ -7,14 +7,29 @@ class FA extends Component{
         console.log(data);
         return (
             <div className="frequently">
-                <details>
-                    <summary>{this.props.title}</summary>
-                    {
-                    data.split('@').map( line => {
-                        return (<span>{line}<br/></span>)
-                    })
-                    }
-                </details>
+                {
+                    this.props.title === "min" ?
+                    (
+                        <details open>
+                            <summary>{this.props.title}</summary>
+                            {
+                            data.split('@').map( line => {
+                                return (<span>{line}<br/></span>)
+                            })
+                            }
+                        </details>
+                    ) : 
+                    (
+                        <details>
+                            <summary>{this.props.title}</summary>
+                            {
+                            data.split('@').map( line => {
+                                return (<span>{line}<br/></span>)
+                            })
+                            }
+                        </details>
+                    )
+                }
             </div>
         )
     }

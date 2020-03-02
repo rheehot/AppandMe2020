@@ -8,11 +8,8 @@ import Main from './Component/Main';
 import About from './Component/About';
 import Members from './Component/Members';
 import Apply from './Component/Apply';
-import QA from './Component/QA';
-import QAWrite from './Component/QAWrite';
 import FA from './Component/FA';
 import Only from './Component/Only';
-import QADetail from './Component/QADetail';
 
 class App extends Actions {
 
@@ -43,9 +40,6 @@ class App extends Actions {
                 <NavLink className="nav-title" to="/"><span className="logo-title">APP &#38; ME</span></NavLink>
               </li>
               <li>
-                <NavLink className="nav-title"to="/QA" activeStyle={{color:'#ffb0b8'}}>Q&#38;A</NavLink>
-              </li>
-              <li>
                 <NavLink className="nav-title"to="/FA" activeStyle={{color:'#ffb0b8'}}>F&#38;A</NavLink>
               </li>
               <li>
@@ -67,10 +61,7 @@ class App extends Actions {
           <Route path="/Members" component={Members}/>
           <Route path="/Apply" component={Apply}/>
           <Route path="/FA" component={FA}/>
-          <Route path="/QA" component={QA}/>
           <Route path="/Only" component={Only}/>
-          <Route path="/QADetail" component={QADetail}/>
-          <Route path="/QAWrite" component={QAWrite}/> 
           <Footer/>
         </div>
       </Provider>

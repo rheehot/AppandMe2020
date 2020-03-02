@@ -1,11 +1,10 @@
 .header{
-    width: 100%;
+    width: 1920px;
     height: 120px;
     background-color: #ffffff;
 }
 
 .header .nav-title, .header .nav-title:hover, .header .nav-title:active, .header .nav-title:visited{
-    font-family: NotoSansCJKKR;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;

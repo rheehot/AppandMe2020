@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import '../styles/css/Footer.css';
 import facebookLogo from '../facebook.png';
 
 const Footer = () => {

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Route, NavLink} from 'react-router-dom';
-import './Members.css';
+import '../styles/css/Members.css';
 import Mem7 from './Mem7';
 import Mem8 from './Mem8';
 import Intro from './Intro';

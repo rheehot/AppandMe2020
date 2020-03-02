@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Member.css';
+import '../styles/css/Member.css';
 
 class Member extends Component {
     render(){
