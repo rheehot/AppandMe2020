@@ -1,2 +1,48 @@
 .frequently{
+    margin-left: 243px;
+}
+
+.frequently details summary{
+    width: 1430px;
+    font-family: NotoSansCJKKR;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 62px;
+    cursor: pointer;
+}
+
+.frequently details summary::-webkit-details-marker {
+    display: none;
+}
+
+.frequently details summary:after {
+    content: "▼";
+    float: right;
+}
+
+.frequently details[open] summary:after {
+    content: "▲";
+}
+
+.frequently details span{
+    font-family: NotoSansCJKKR;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin-left: 27px;
+}
+
+.frequently hr{
+    margin: 62px 243px 62px 0;
 }
