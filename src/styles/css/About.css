@@ -8,37 +8,44 @@
 }
 
 .about h1{
-    font-size: 30px;
+    font-family: NotoSansCJKKR;
+    font-size: 45px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
     letter-spacing: normal;
+    text-align: center;
     color: #000000;
-    margin-bottom: 40px;
+    margin: 0 0 65px 0;
 }
 
 .about .about-intro h3{
-    font-size: 20px;
+    font-family: NotoSansCJKKR;
+    font-size: 25px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.6;
     letter-spacing: normal;
+    text-align: center;
     color: #000000;
-    margin-bottom: 40px;
+    margin: 0 0 62px 0;
 }
 
 .about .about-intro div{
-    font-size: 18px;
+    width: 1433px;
+    height: 170px;
+    font-family: NotoSansCJKKR;
+    font-size: 25px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.6;
     letter-spacing: normal;
-    color: #707070;
     text-align: left;
-    margin-bottom: 40px;
+    color: #707070;
+    margin: 0 0 60px 0;
 }
 
 .about .about-intro hr{
@@ -46,7 +53,7 @@
 }
 
 .about .about-activity{
-    margin: 0 243px 100px;
+    margin: 0 243px 171px;
     text-align: center;
 }
 
@@ -55,8 +62,10 @@
 }
 
 .about .about-activity td{
-    height: 33px;
-    font-size: 18px;
+    width: 382px;
+    height: 83px;
+    font-family: NotoSansCJKKR;
+    font-size: 25px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -67,8 +76,9 @@
 }
 
 .about .about-activity .temp{
-    width: 280px;
-    font-size: 22px;
+    width: 75px;
+    font-family: NotoSansCJKKR;
+    font-size: 35px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
