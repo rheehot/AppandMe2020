@@ -22,12 +22,12 @@
 }
 
 .frequently details summary:after {
-    content: "▼";
+    content: url('https://user-images.githubusercontent.com/48242362/75758108-e358e780-5d76-11ea-877b-3291055378de.png');
     float: right;
 }
 
 .frequently details[open] summary:after {
-    content: "▲";
+    content: url('https://user-images.githubusercontent.com/48242362/75758104-e2c05100-5d76-11ea-8e72-8a4f0947813f.png');
 }
 
 .frequently details span{
