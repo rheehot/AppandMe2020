@@ -1,10 +1,11 @@
 .frequently{
     margin-left: 243px;
+    margin-right: 243px;
 }
 
 .frequently details summary{
     width: 1430px;
-    font-family: NotoSansCJKKR;
+    font-family: "NotoSansCJKKr Bold";
     font-size: 25px;
     font-weight: bold;
     font-stretch: normal;
@@ -13,7 +14,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #000000;
-    margin-bottom: 62px;
+    margin-bottom: 53px;
     cursor: pointer;
     -ms-user-select:none;
     -moz-user-select:none;
@@ -39,7 +40,7 @@
 }
 
 .frequently details span{
-    font-family: NotoSansCJKKR;
+    font-family: "NotoSansCJKKr Regular";
     font-size: 25px;
     font-weight: normal;
     font-stretch: normal;
@@ -48,9 +49,8 @@
     letter-spacing: normal;
     text-align: left;
     color: #707070;
-    margin-left: 27px;
 }
 
 .frequently hr{
-    margin: 62px 243px 62px 0;
+    margin: 62px 0 62px;
 }

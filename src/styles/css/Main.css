@@ -1,24 +1,42 @@
 @import './fonts.css';
 
 .main{
+    position: relative;
     width: 1920px;
+    height: 959px;
+}
+
+.main .main-img{
+    width: 1920px;
+    height: 1019px;
+    position: absolute;
+    top: -60px;
+    z-index: -3;
     background-image : url('../../main-img.png');
 	background-repeat : no-repeat;
     background-size : cover;
-    padding-bottom: 243px;
 }
 
+.main .main-img-layer{
+    position: absolute;
+    top: -3px;
+    z-index: -2;
+    width: 1920px;
+    height: 960px;
+    opacity: 0.3;
+    background-color: #000000;
+}
 .main .main-title{
-    font-family: 'NotoSansCJKKr Regular';
-    font-size: 40px;
+    font-family: 'NotoSansCJKKr Medium';
+    font-size: 60px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
+    line-height: 1.33;
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    padding: 115px 0 0 242px;
-    margin-bottom: 100px;
+    padding: 115px 0 80px 242px;
 }
 
 .main ul{
@@ -27,8 +45,8 @@
     margin-left: 242px;
 }
 .main ul li:first-child{
-    text-shadow: 0 3px 99px rgba(0, 0, 0, 0.16);
     font-size: 26px;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.35;
@@ -40,8 +58,8 @@
 
 .main ul li{
     font-family: 'NotoSansCJKKr Regular';
-    text-shadow: 0 3px 99px rgba(0, 0, 0, 0.16);
     font-size: 18px;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
@@ -55,7 +73,6 @@
     margin-bottom: 46px;
 }
 
-
 .main .wrap-btn{
     width: 148px;
     height: 44px;
@@ -67,14 +84,12 @@
 }
 
 .main a, .main a:hover, .main a:active, .main a:visited{
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     font-family: 'NotoSansCJKKr Bold';
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    line-height: 44px;
-    letter-spacing: normal;
     text-decoration: none;
+    letter-spacing: normal;
     color: #ffffff;
 }

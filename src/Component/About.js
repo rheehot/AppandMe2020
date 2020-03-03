@@ -5,7 +5,7 @@ import '../styles/css/About.css';
 const About = () => {
     return (
         <div className="about">
-            <Intro title="ABOUT" notice1="미림 마이스터고 전공동아리, 앱앤미." notice2="어떤 활동을 하나요?" />
+            <Intro title="ABOUT" notice1="미림 마이스터고 전공동아리, " name="앱앤미." notice2="어떤 활동을 하나요?" />
             <div className="about-intro">
                 <h1>동아리 소개</h1>
                 <h3>'USER에서 MAKER로 거듭나고자 하는 당신을 위한 최고의 선택, APP &#38; ME'</h3>

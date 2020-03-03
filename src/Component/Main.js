@@ -21,6 +21,8 @@ const Main = () => {
             <div className="wrap-btn">
                 <Link to="/Apply"><div className="btn btn-apply">지원하기</div></Link>
             </div>
+            <div className="main-img"></div>
+            <div className="main-img-layer"></div>
         </div>
     );
 };

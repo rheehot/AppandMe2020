@@ -8,7 +8,7 @@ class FA extends Component {
         return (
             <div className="frequently">
                 {
-                    this.props.title === "min" ?
+                    this.props.title === "Q. min" ?
                         (
                             <details open>
                                 <summary>{this.props.title}</summary>

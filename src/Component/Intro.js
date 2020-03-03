@@ -7,7 +7,7 @@ class Intro extends Component {
         return (
             <div className="intro">
                 <div className="title">{this.props.title}</div>
-                <div className="notice">{this.props.notice1}</div>
+                <div className="notice">{this.props.notice1}<span className="pink-color">{this.props.name}</span></div>
                 <div className="notice">{this.props.notice2}</div>
                 <hr />
             </div>

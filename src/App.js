@@ -56,6 +56,7 @@ class App extends Actions {
               </li> */}
             </ul>
           </div>
+          <hr className="header-hr"/>
           <Route path="/" component={Main} exact="true"/>
           <Route path="/About" component={About}/>
           <Route path="/Members" component={Members}/>

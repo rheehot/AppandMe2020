@@ -1,7 +1,7 @@
 .member{
-    width: 260px;
+    width: 306px;
     float: left;
-    margin-left: 40px;
+    margin-left: 102px;
 }
 
 .member a:hover, .member a:active, .member a, .member a:visited{
@@ -9,12 +9,12 @@
     color:black;
 }
 .member .mem-img{
-    width: 260px;
-    height: 260px;
+    width: 306px;
+    height: 306px;
 }
 
 .member .mem-name{
-    font-family: NotoSansCJKKR;
+    font-family: "NotoSansCJKKr Bold";
     font-size: 25px;
     font-weight: bold;
     font-stretch: normal;
@@ -23,10 +23,11 @@
     letter-spacing: normal;
     text-align: left;
     color: #000000;
+    margin-bottom: 10px;
 }
 
 .member .mem-major{
-    font-family: NotoSansCJKKR;
+    font-family: "NotoSansCJKKr Medium";
     font-size: 15px;
     font-weight: 500;
     font-stretch: normal;

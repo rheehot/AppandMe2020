@@ -5,12 +5,13 @@
 }
 
 .header .nav-title, .header .nav-title:hover, .header .nav-title:active, .header .nav-title:visited{
+    font-family: "NotoSansCJKKr Medium";
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
-    line-height: 116px;
+    line-height: 120px;
     letter-spacing: normal;
     text-align: left;
     color: #707070;
@@ -36,6 +37,14 @@
     float:left;
 }
 
+.header-hr{
+    position: relative;
+    z-index: -5;
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+}
+
 .header ul li:first-child .header-img{
     float:left;
     width: 54px;
@@ -48,12 +57,14 @@
 
 
 .header .logo-title{
+    font-family: "NotoSansCJKKr Bold";
     font-size: 25px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 120px;
     letter-spacing: normal;
+    text-align: left;
     margin-left: 20px;
     color: #000000;
 }

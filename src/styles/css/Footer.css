@@ -18,11 +18,12 @@
 }
 
 .footer .wrap-contact .contact div:first-child{
-    font-weight: 900;
+    font-family: "NotoSansCJKKr Black";
     margin-bottom: 21px;
 }
 
 .footer .wrap-contact .contact div{
+    font-family: "NotoSansCJKKr Regular";
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
