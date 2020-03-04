@@ -68,7 +68,8 @@ class Actions extends React.Component{
     insertUser = (event,code,name, self, why, t1, t2, t3, t4, t5) => {
         event.preventDefault();
         event.persist();
-        Axios.post('http://localhost/php-react/add-user.php',{
+        Axios.post('http://13.124.20.126/add_user.php',{
+        // Axios.post('http://localhost/php-react/add-user.php',{
             code:code,
             name:name,
             self:self,
