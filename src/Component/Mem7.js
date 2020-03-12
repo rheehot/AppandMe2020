@@ -43,6 +43,8 @@ class Mem7 extends Component{
                     major: "뉴미디어디자인과",
                     img: "https://github.com/Sookhee/App_and_Me_Website2020/blob/master/public/img/%EC%A3%BC%EC%84%A0%EC%9A%B0.jpg?raw=true",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100004550599183"
+                },{
+                    
                 }
             ]
         };

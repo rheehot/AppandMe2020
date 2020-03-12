@@ -1,25 +1,19 @@
 .members{
-    width: 100%;
+    max-width: 100%;
+    margin-bottom: 120px;
 }
 
-.members .wrap-link{
-    margin-left: 243px;
+.wrap-link{
+    margin-left: 10%;
     float: left;
 }
 
-.members .wrap-link .link-br{
-    height: 33px;
+.wrap-mem{
+    max-width: 70%;
+    float: right;
+    margin-right: 10%;
 }
 
-.members a, .members a:hover, .members a:visited, .members a:active{
-    font-family: "NotoSansCJKKr Regular";
-    font-size: 35px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.14;
-    letter-spacing: normal;
-    text-align: left;
-    color: #707070;
-    text-decoration: none;
+br{
+    clear: both;
 }

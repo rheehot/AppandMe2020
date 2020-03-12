@@ -1,8 +1,9 @@
 .mems{
-    width: 1224px;
-    margin-right: 243px;
-    float: right;
-    padding-bottom: 160px;
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .clear{

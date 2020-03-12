@@ -17,7 +17,9 @@ class Member extends Component {
 }
 
 Member.defaultProps = {
-    name: '기본이름'
+    name: '',
+    img: '',
+    major: ''
 };
 
 export default Member;
