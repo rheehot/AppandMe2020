@@ -3,7 +3,7 @@
 }
 
 .wrap-intro{
-    margin: 60px 10% 60px;
+    margin: 60px 10% 0;
 }
 
 .intro .title{
@@ -17,13 +17,8 @@
 
 .intro .notice{
     font-size: 25px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.6;
-  letter-spacing: normal;
-  text-align: left;
-  color: #707070;
+    text-align: left;
+    color: #707070;
 }
 
 
