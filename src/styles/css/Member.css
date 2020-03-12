@@ -11,6 +11,7 @@
 .member .mem-img{
     width: 300px;
     height: auto !important;
+    margin-bottom: 10px;
 }
 
 .member .mem-name{
@@ -27,4 +28,9 @@
     font-weight: 500;
     text-align: left;
     color: #707070;
+    margin-bottom: 40px;
+}
+
+.member:last-child() .mem-major{
+    margin-bottom: 0;
 }
