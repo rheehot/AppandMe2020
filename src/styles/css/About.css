@@ -1,92 +1,50 @@
 .about{
-    width: 1920px;
+    max-width: 100%;
 }
 
 .about .about-intro{
-    margin: 0 243px;
+    margin: 0 10%;
     text-align: center;
 }
 
 .about h1{
-    font-family: "NotoSansCJKKr Regular";
-    font-size: 45px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
+    font-size: 38px;
     text-align: center;
     color: #000000;
-    margin: 0 0 65px 0;
+    margin-bottom: 60px;
+    margin-top : 60px;
 }
 
 .about .about-intro h3{
-    font-family: "NotoSansCJKKr Bold";
     font-size: 25px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.6;
-    letter-spacing: normal;
     text-align: center;
     color: #000000;
-    margin: 0 0 62px 0;
-}
-
-.about .about-intro div{
-    width: 1433px;
-    height: 170px;
-    font-family: "NotoSansCJKKr Regular";
-    font-size: 25px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.6;
-    letter-spacing: normal;
-    text-align: left;
-    color: #707070;
-    margin: 0 0 60px 0;
-}
-
-.about .about-intro hr{
     margin-bottom: 60px;
 }
 
-.about .about-activity{
-    margin: 0 243px 171px;
-    text-align: center;
+.about .about-intro div{
+    font-size: 22px;
+    text-align: left;
+    color: #707070;
+    margin-bottom: 60px;
 }
 
-.about .about-activity table{
-    width: 100%;
+.about .about-intro table{
+    margin: 0 auto 160px;
 }
 
-.about .about-activity td{
-    width: 382px;
-    height: 83px;
-    font-family: "NotoSansCJKKr Regular";
-    font-size: 25px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000000;
+.about .about-intro table td{
+    height: 24px;
+    font-size: 20px;
 }
 
-.about .about-activity .temp{
-    width: 75px;
-    font-size: 35px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.34;
-    letter-spacing: normal;
-    text-align: center;
-    color: #000000;
+.about .about-intro table .temp{
+    width: 28%;
+    color: #000;
+    text-align: left;
+    font-weight: bold;
 }
 
-.about .about-activity .mar-temp{
+.about .about-intro table .mar-temp{
     height: 40px;
 }

@@ -1,11 +1,11 @@
 .header{
-    width: 1920px;
+    max-width: 100%;
     height: 120px;
-    background-color: #ffffff;
+    padding: 0 10%;
+    background-color: #fff;
 }
 
 .header .nav-title, .header .nav-title:hover, .header .nav-title:active, .header .nav-title:visited{
-    font-family: "NotoSansCJKKr Medium";
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
@@ -13,12 +13,10 @@
     font-style: normal;
     line-height: 120px;
     letter-spacing: normal;
-    text-align: left;
     color: #707070;
 }
 
 .header ul{
-    margin: 0 243px;
     padding: 0;
 }
 
@@ -37,14 +35,6 @@
     float:left;
 }
 
-.header-hr{
-    position: relative;
-    z-index: -5;
-    width: 1920px;
-    margin: 0;
-    padding: 0;
-}
-
 .header ul li:first-child .header-img{
     float:left;
     width: 54px;
@@ -52,12 +42,11 @@
     background-image: url('./app-and-me-logo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 35px;
+    margin-top: 34px;
 }
 
 
 .header .logo-title{
-    font-family: "NotoSansCJKKr Bold";
     font-size: 25px;
     font-weight: bold;
     font-stretch: normal;
@@ -67,4 +56,10 @@
     text-align: left;
     margin-left: 20px;
     color: #000000;
+}
+
+.hr{
+    width: 100%;
+    height: 1px;
+    background: #707070;
 }

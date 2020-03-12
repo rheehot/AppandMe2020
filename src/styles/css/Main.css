@@ -2,75 +2,31 @@
 
 .main{
     position: relative;
-    width: 1920px;
-    height: 959px;
+    width: 100%;
+    height: 800px;
+    color: #fff;
 }
 
-.main .main-img{
-    width: 1920px;
-    height: 1019px;
+.main .background-img{
     position: absolute;
-    top: -60px;
+    top: 0;
     z-index: -3;
-    background-image : url('../../main-img.png');
-	background-repeat : no-repeat;
-    background-size : cover;
+    background-image: url(../../main-img.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-.main .main-img-layer{
+.background-layer{
     position: absolute;
-    top: -3px;
+    top: 0;
     z-index: -2;
-    width: 1920px;
-    height: 960px;
+    width: 100%;
+    height: 800px;
+    background: #000;
     opacity: 0.3;
-    background-color: #000000;
-}
-.main .main-title{
-    font-family: 'NotoSansCJKKr Medium';
-    font-size: 60px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-    padding: 115px 0 80px 242px;
-}
-
-.main ul{
-    list-style: none;
-    padding: 0;
-    margin-left: 242px;
-}
-.main ul li:first-child{
-    font-size: 26px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.35;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 50px;
-}
-
-.main ul li{
-    font-family: 'NotoSansCJKKr Regular';
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 22px;
-}
-
-.main ul li:last-child{
-    margin-bottom: 46px;
 }
 
 .main .wrap-btn{
@@ -80,7 +36,8 @@
     border-radius: 100px;
     text-align: center;
     line-height: 44px;
-    margin-left: 243px;
+    margin-left: 10%;
+    margin-top: 50px;
 }
 
 .main a, .main a:hover, .main a:active, .main a:visited{
@@ -92,4 +49,26 @@
     text-decoration: none;
     letter-spacing: normal;
     color: #ffffff;
+}
+
+.cont-tit{
+    margin-left: 10%;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.cont-tit:first-child{
+    padding-top: 8%;
+}
+
+.cont-sub-tit{
+    margin-left: 10%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.cont-cont{
+    margin-left: 10%;
+    margin-bottom: 20px;
 }

@@ -30,7 +30,7 @@ class FA extends Component {
                             </details>
                         )
                 }
-                <hr />
+                <hr/>
             </div>
         )
     }

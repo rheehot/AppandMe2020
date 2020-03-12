@@ -1,7 +1,6 @@
 import React from 'react';
 import Actions from './Actions/Actions';
 import {Provider} from './Context';
-import './App.css';
 import {Route, NavLink} from 'react-router-dom';
 import Footer from './Component/Footer';
 import Main from './Component/Main';
@@ -10,6 +9,8 @@ import Members from './Component/Members';
 import Apply from './Component/Apply';
 import FA from './Component/FA';
 import Only from './Component/Only';
+import './App.css';
+import './styles/css/fonts.css';
 
 class App extends Actions {
 
@@ -33,11 +34,11 @@ class App extends Actions {
     return (
       <Provider value={contextValue}>
         <div className="App">
-          <div className="header">
+          <div className="header font-medium">
             <ul>
               <li>
                 <div className="header-img"></div>
-                <NavLink className="nav-title" to="/"><span className="logo-title">APP &#38; ME</span></NavLink>
+                <NavLink className="nav-title" to="/"><span className="logo-title font-bold">APP &#38; ME</span></NavLink>
               </li>
               <li>
                 <NavLink className="nav-title"to="/FA" activeStyle={{color:'#ffb0b8'}}>F&#38;A</NavLink>
@@ -56,13 +57,15 @@ class App extends Actions {
               </li> */}
             </ul>
           </div>
-          <hr className="header-hr"/>
-          <Route path="/" component={Main} exact="true"/>
-          <Route path="/About" component={About}/>
-          <Route path="/Members" component={Members}/>
-          <Route path="/Apply" component={Apply}/>
-          <Route path="/FA" component={FA}/>
-          <Route path="/Only" component={Only}/>
+          <div class="hr"></div>
+          <div class="content">
+            <Route path="/" component={Main} exact="true"/>
+            <Route path="/About" component={About}/>
+            <Route path="/Members" component={Members}/>
+            <Route path="/Apply" component={Apply}/>
+            <Route path="/FA" component={FA}/>
+            <Route path="/Only" component={Only}/>
+          </div>
           <Footer/>
         </div>
       </Provider>

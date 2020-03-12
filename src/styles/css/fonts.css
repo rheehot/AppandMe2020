@@ -21,3 +21,8 @@
     font-weight: normal;
     src: url("../fonts/NotoSansCJKkr-Black.otf") format("opentype");
 }
+
+.font-medium{font-family: "NotoSansCJKKr Medium";}
+.font-regular{font-family: "NotoSansCJKKr Regular";}
+.font-bold{font-family: "NotoSansCJKKr Bold";}
+.font-black{font-family: "NotoSansCJKKr Black";}

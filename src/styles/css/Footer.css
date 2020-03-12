@@ -1,42 +1,34 @@
 .footer{
-    width: 1920px;
+    max-width: 100%;
     height: 200px;
+    padding: 0 10%;
     background-color: #ffb0b8;
-    clear: both;
-}
-
-.footer .wrap-contact{
-    width: 600px;
-    height: 200px;
     display: flex;
     align-items: center;
-    padding-left: 90px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
-.footer .wrap-contact .contact:last-child{
-    margin-left: 150px;
+.footer .wrap-contact{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
 }
 
 .footer .wrap-contact .contact div:first-child{
     font-family: "NotoSansCJKKr Black";
-    margin-bottom: 21px;
 }
 
-.footer .wrap-contact .contact div{
-    font-family: "NotoSansCJKKr Regular";
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 6px;
+.footer .contact{
+    color: #fff;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
-.footer img{
+.footer .contact:first-child{
+    margin-right: 10%;
+}
+
+.footer a img{
     width: 20px;
-    margin-right: 200px;
-    margin-top: 54px;
-    float: right;
 }
+
