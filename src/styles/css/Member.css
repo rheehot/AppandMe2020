@@ -10,7 +10,7 @@
 
 .member .mem-img{
     width: 300px;
-    height: 300px;
+    height: auto !important;
 }
 
 .member .mem-name{

@@ -42,7 +42,8 @@ class Mem8 extends Component{
                     major: "뉴미디어디자인과",
                     img: "https://github.com/Sookhee/App_and_Me_Website2020/blob/master/public/img/%EC%98%A4%EC%97%B0%EC%84%9C.jpg?raw=true",
                     facebookUrl: "https://github.com/Sookhee/App_and_Me_Website2020/blob/master/public/img/%EC%98%A4%EC%97%B0%EC%84%9C.jpg?raw=true"
-                }
+                },
+                {}
             ]
         };
     }
