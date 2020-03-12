@@ -15,6 +15,7 @@ class Members extends Component{
                     <NavLink to="/Members" activeStyle={{color:'#ffb0b8'}} exact="true">7기 앱앤미</NavLink>
                     <div className="link-br"></div>
                     <NavLink to="/Members/8th" activeStyle={{color:'#ffb0b8'}}>8기 앱앤미</NavLink>
+                    <div className="link-br"></div>
                 </div>
                 <div className="wrap-mem">
                     <Route path="/Members" component={Mem7} exact="true"/>

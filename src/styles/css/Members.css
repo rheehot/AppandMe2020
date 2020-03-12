@@ -4,16 +4,28 @@
 }
 
 .wrap-link{
+    margin-top: 60px;
     margin-left: 10%;
     float: left;
 }
 
 .wrap-mem{
     max-width: 70%;
+    margin-top: 60px;
     float: right;
     margin-right: 10%;
 }
 
+.members a, .members a:hover, .members a:visited, .members a:active{
+    text-decoration: none;
+    color: #707070;
+    font-family: "NotoSansCJKKr Regular";
+    font-size: 28px;
+}
+
+.members .wrap-link .link-br{
+    height: 20px;
+}
 br{
     clear: both;
 }
