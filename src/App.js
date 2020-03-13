@@ -13,10 +13,10 @@ import Footer from './Components/footer/Footer';
 
 class App extends Actions {
 
-  componentWillMount(){
-    console.log("%c안녕하세요! 퀴즈를 맞춘 것을 축하해요!", 'color:pink; font-size:25px;');
-    console.log("%c면접이 끝나고 퀴즈를 풀었냐고 물어보면", 'color:green; font-size:25px;');
-    console.log("%cHello World! 라고 말해주세요 :D", 'color:blue; font-size:25px;');
+  componentDidMount(){
+    console.log("%c안녕하세요! 퀴즈를 맞춘 것을 축하해요!", 'color:#ffb0b8; font-size:25px;');
+    console.log("%c면접이 끝나고 퀴즈를 풀었냐고 물어보면", 'color:#ffb0b8; font-size:25px;');
+    console.log("%cHello World! 라고 말해주세요 :D", 'color:#ffb0b8; font-size:25px;');
   }
 
   render(){
@@ -57,7 +57,7 @@ class App extends Actions {
           </div>
           <div className="hr"></div>
           <div className="content">
-            <Route path="/" component={Main} exact="true"/>
+            <Route path="/" component={Main} exact={true}/>
             <Route path="/About" component={About}/>
             <Route path="/Members" component={Members}/>
             <Route path="/Apply" component={Apply}/>
