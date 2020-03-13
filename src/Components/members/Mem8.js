@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../styles/css/Mem.css';
+import './Mem.css';
 import Member from './Member';
 
 class Mem8 extends Component{

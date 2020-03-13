@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/css/FItem.css';
+import './FItem.css';
 
 class FA extends Component {
     render() {

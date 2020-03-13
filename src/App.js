@@ -2,15 +2,14 @@ import React from 'react';
 import Actions from './Actions/Actions';
 import {Provider} from './Context';
 import {Route, NavLink} from 'react-router-dom';
-import Footer from './Component/Footer';
-import Main from './Component/Main';
-import About from './Component/About';
-import Members from './Component/Members';
-import Apply from './Component/Apply';
-import FA from './Component/FA';
-import Only from './Component/Only';
 import './App.css';
-import './styles/css/fonts.css';
+import Main from './Components/main/Main';
+import About from './Components/about/About';
+import Apply from './Components/apply/Apply';
+import Members from './Components/members/Members';
+import FA from './Components/fa/FA';
+import Only from './Components/only/Only';
+import Footer from './Components/footer/Footer';
 
 class App extends Actions {
 
@@ -21,7 +20,6 @@ class App extends Actions {
   }
 
   render(){
-
     const contextValue = {
       all_users:this.state.users,
       all_posts:this.state.posts,

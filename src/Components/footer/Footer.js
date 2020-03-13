@@ -1,7 +1,6 @@
 import React from 'react';
-import '../styles/css/Footer.css';
-import '../styles/css/fonts.css';
-import facebookLogo from '../facebook.png';
+import './Footer.css';
+// import '../styles/css/fonts.css';
 
 const Footer = () => {
     return (
@@ -18,7 +17,7 @@ const Footer = () => {
                     <div>s2018s38@gmail.com</div>
                 </div>
             </div>
-            <a href="https://www.facebook.com/APPandME2012/" target="blank"><img src={facebookLogo}></img></a>
+            <a href="https://www.facebook.com/APPandME2012/" target="blank"><div className="facebook-img"></div></a>
         </div>
     );
 };

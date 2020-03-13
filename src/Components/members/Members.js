@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {Route, NavLink} from 'react-router-dom';
-import '../styles/css/Members.css';
+import './Members.css';
 import Mem7 from './Mem7';
 import Mem8 from './Mem8';
-import Intro from './Intro';
+import Intro from '../intro/Intro';
 
 class Members extends Component{
 

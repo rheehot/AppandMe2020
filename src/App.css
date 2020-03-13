@@ -1,69 +1,69 @@
 body{
-    width: 100%;
+  width: 100%;
 }
 
 .header{
-    max-width: 100%;
-    height: 120px;
-    padding: 0 10%;
-    background-color: #fff;
+  max-width: 100%;
+  height: 120px;
+  padding: 0 10%;
+  background-color: #fff;
 }
 
 .header .nav-title, .header .nav-title:hover, .header .nav-title:active, .header .nav-title:visited{
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 120px;
-    letter-spacing: normal;
-    color: #707070;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 120px;
+  letter-spacing: normal;
+  color: #707070;
 }
 
 .header ul{
-    padding: 0;
+  padding: 0;
 }
 
 .header ul li{
-    line-height: 60px;
-    margin-right: 64px;
-    list-style: none;   
-    float: right;
+  line-height: 60px;
+  margin-right: 64px;
+  list-style: none;   
+  float: right;
 }
 
 .header ul li:nth-child(2){
-    margin: 0;
+  margin: 0;
 }
 
 .header ul li:first-child{
-    float:left;
+  float:left;
 }
 
 .header ul li:first-child .header-img{
-    float:left;
-    width: 54px;
-    height: 54px;
-    background-image: url('./app-and-me-logo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 34px;
+  float:left;
+  width: 54px;
+  height: 54px;
+  background-image: url('./img/app-and-me-logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 34px;
 }
 
 
 .header .logo-title{
-    font-size: 25px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 120px;
-    letter-spacing: normal;
-    text-align: left;
-    margin-left: 20px;
-    color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 120px;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 20px;
+  color: #000000;
 }
 
 .hr{
-    width: 100%;
-    height: 1px;
-    background: #707070;
+  width: 100%;
+  height: 1px;
+  background: #707070;
 }

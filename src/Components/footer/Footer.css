@@ -28,7 +28,10 @@
     margin-right: 10%;
 }
 
-.footer a img{
-    width: 20px;
+.footer a .facebook-img{
+    width: 24px;
+    height: 30px;
+    /* background-image: url(../../facebook.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-

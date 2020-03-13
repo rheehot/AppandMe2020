@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Member from './Member';
-import '../styles/css/Mem.css';
+import './Mem.css';
 
 class Mem7 extends Component{
     constructor(props) {

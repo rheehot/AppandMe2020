@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
-import Intro from './Intro';
-import '../styles/css/Apply.css';
-import '../styles/css/fonts.css';
-import {AppContext} from '../Context';
+import Intro from '../intro/Intro.js';
+import './Apply.css';
+// import '../styles/css/fonts.css';
+import {AppContext} from '../../Context.js';
 
 class Apply extends Component {
     static contextType = AppContext;

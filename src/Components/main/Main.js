@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import '../styles/css/Main.css';
-import '../styles/css/fonts.css';
+import './Main.css';
+// import '../styles/css/fonts.css';
 
 const Main = () => {
     return (
@@ -16,8 +16,8 @@ const Main = () => {
             <div className="wrap-btn">
                 <Link to="/Apply"><div className="btn btn-apply">지원하기</div></Link>
             </div>
-            <div class="background-img"></div>
-            <div class="background-layer"></div>
+            <div className="background-img"></div>
+            <div className="background-layer"></div>
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {AppContext} from '../Context';
-import '../styles/css/List.css';
+import {AppContext} from '../../Context.js';
+import './List.css';
 
 class List extends Component{
     static contextType = AppContext;

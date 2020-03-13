@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Intro from './Intro';
+import Intro from '../intro/Intro';
 import Item from './FItem'
-import '../styles/css/FA.css';
+import './FA.css';
 
 class FA extends Component{
     

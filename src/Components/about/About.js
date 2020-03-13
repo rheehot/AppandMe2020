@@ -1,7 +1,7 @@
 import React from 'react';
-import Intro from './Intro';
-import '../styles/css/About.css';
-import '../styles/css/fonts.css';
+import Intro from '../intro/Intro.js';
+import './About.css';
+import '../../Fonts/fonts.css';
 
 const About = () => {
     return (
