@@ -31,7 +31,7 @@
 .footer a .facebook-img{
     width: 24px;
     height: 30px;
-    /* background-image: url(../../facebook.png); */
+    background-image: url('../../img/facebook.png');
     background-size: contain;
     background-repeat: no-repeat;
 }

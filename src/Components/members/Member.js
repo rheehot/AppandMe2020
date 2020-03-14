@@ -18,7 +18,7 @@ class Member extends Component {
 
 Member.defaultProps = {
     name: '',
-    img: 'https://raw.githubusercontent.com/Sookhee/App_and_Me_Website2020/master/public/img/default-img.png?token=ALJWDNL6KLOJWHPNBEM5YF26OOFVE',
+    img: 'https://github.com/Sookhee/App-and-Me-Website2020/blob/master/src/img/default-img.png?raw=true',
     major: ''
 };
 

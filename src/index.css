@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+#root{
+  width: 100%;
+  position: absolute;
+  top: -20px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

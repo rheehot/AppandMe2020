@@ -14,7 +14,7 @@ const Main = () => {
             <div className="cont-cont font-regular">면접장소: 앱창작터 1실</div>
             <div className="cont-cont font-regular">* 위 내용은 지원자들에게 개별 문자로 공지할 예정입니다.</div>
             <div className="wrap-btn">
-                <Link to="/Apply"><div className="btn btn-apply">지원하기</div></Link>
+                <Link to="/App-and-Me-Website2020/Apply"><div className="btn btn-apply">지원하기</div></Link>
             </div>
             <div className="background-img"></div>
             <div className="background-layer"></div>

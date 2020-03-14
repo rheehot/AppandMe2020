@@ -28,6 +28,6 @@
 
 .intro hr{
     border: none;
-    height: 1px;
-    background: #000;
+    height: .8px;
+    background: #707070;
 }

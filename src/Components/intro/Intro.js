@@ -11,7 +11,7 @@ class Intro extends Component {
                     <div className="title font-bold">{this.props.title}</div>
                     <div className="notice font-regular">{this.props.notice1}<span className="pink-color">{this.props.name}</span></div>
                     <div className="notice font-regular">{this.props.notice2}</div>
-                    <hr />
+                    <hr/>
                 </div>
             </div>
         )
