@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "899ccf07834769c9fbb5c76451dcff16",
+    "revision": "71f14cc78dcd89059e03a6a75966bced",
     "url": "/App-and-Me-Website2020/index.html"
   },
   {
-    "revision": "d4819c2aa209889304ad",
-    "url": "/App-and-Me-Website2020/static/css/main.ef24389b.chunk.css"
+    "revision": "c47c3be3d369f50e07d8",
+    "url": "/App-and-Me-Website2020/static/css/main.59ace434.chunk.css"
   },
   {
     "revision": "d33a94e7b96cb1435eb4",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/App-and-Me-Website2020/static/js/2.552c4dfc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d4819c2aa209889304ad",
+    "revision": "c47c3be3d369f50e07d8",
     "url": "/App-and-Me-Website2020/static/js/main.dfb58a45.chunk.js"
   },
   {
