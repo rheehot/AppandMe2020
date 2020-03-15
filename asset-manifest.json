@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/App-and-Me-Website2020/static/css/main.270335b8.chunk.css",
-    "main.js": "/App-and-Me-Website2020/static/js/main.355f715b.chunk.js",
-    "main.js.map": "/App-and-Me-Website2020/static/js/main.355f715b.chunk.js.map",
+    "main.js": "/App-and-Me-Website2020/static/js/main.1a53ebde.chunk.js",
+    "main.js.map": "/App-and-Me-Website2020/static/js/main.1a53ebde.chunk.js.map",
     "runtime-main.js": "/App-and-Me-Website2020/static/js/runtime-main.7801c68d.js",
     "runtime-main.js.map": "/App-and-Me-Website2020/static/js/runtime-main.7801c68d.js.map",
     "static/js/2.b45b41e9.chunk.js": "/App-and-Me-Website2020/static/js/2.b45b41e9.chunk.js",
     "static/js/2.b45b41e9.chunk.js.map": "/App-and-Me-Website2020/static/js/2.b45b41e9.chunk.js.map",
     "index.html": "/App-and-Me-Website2020/index.html",
-    "precache-manifest.72549b80980b6fa2da6efceca6d96796.js": "/App-and-Me-Website2020/precache-manifest.72549b80980b6fa2da6efceca6d96796.js",
+    "precache-manifest.864064b79e0e21136fe3d206e6c7569f.js": "/App-and-Me-Website2020/precache-manifest.864064b79e0e21136fe3d206e6c7569f.js",
     "service-worker.js": "/App-and-Me-Website2020/service-worker.js",
     "static/css/main.270335b8.chunk.css.map": "/App-and-Me-Website2020/static/css/main.270335b8.chunk.css.map",
     "static/js/2.b45b41e9.chunk.js.LICENSE.txt": "/App-and-Me-Website2020/static/js/2.b45b41e9.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.7801c68d.js",
     "static/js/2.b45b41e9.chunk.js",
     "static/css/main.270335b8.chunk.css",
-    "static/js/main.355f715b.chunk.js"
+    "static/js/main.1a53ebde.chunk.js"
   ]
 }
