@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/App-and-Me-Website2020/static/css/main.270335b8.chunk.css",
-    "main.js": "/App-and-Me-Website2020/static/js/main.819d48a0.chunk.js",
-    "main.js.map": "/App-and-Me-Website2020/static/js/main.819d48a0.chunk.js.map",
+    "main.js": "/App-and-Me-Website2020/static/js/main.d43f9f1c.chunk.js",
+    "main.js.map": "/App-and-Me-Website2020/static/js/main.d43f9f1c.chunk.js.map",
     "runtime-main.js": "/App-and-Me-Website2020/static/js/runtime-main.7801c68d.js",
     "runtime-main.js.map": "/App-and-Me-Website2020/static/js/runtime-main.7801c68d.js.map",
-    "static/js/2.e805dc57.chunk.js": "/App-and-Me-Website2020/static/js/2.e805dc57.chunk.js",
-    "static/js/2.e805dc57.chunk.js.map": "/App-and-Me-Website2020/static/js/2.e805dc57.chunk.js.map",
+    "static/js/2.b45b41e9.chunk.js": "/App-and-Me-Website2020/static/js/2.b45b41e9.chunk.js",
+    "static/js/2.b45b41e9.chunk.js.map": "/App-and-Me-Website2020/static/js/2.b45b41e9.chunk.js.map",
     "index.html": "/App-and-Me-Website2020/index.html",
-    "precache-manifest.ffa2d808280d58c9650c9e1b6c2a3e24.js": "/App-and-Me-Website2020/precache-manifest.ffa2d808280d58c9650c9e1b6c2a3e24.js",
+    "precache-manifest.23258747d4ded9f6bb203b4169bc2692.js": "/App-and-Me-Website2020/precache-manifest.23258747d4ded9f6bb203b4169bc2692.js",
     "service-worker.js": "/App-and-Me-Website2020/service-worker.js",
     "static/css/main.270335b8.chunk.css.map": "/App-and-Me-Website2020/static/css/main.270335b8.chunk.css.map",
-    "static/js/2.e805dc57.chunk.js.LICENSE.txt": "/App-and-Me-Website2020/static/js/2.e805dc57.chunk.js.LICENSE.txt",
+    "static/js/2.b45b41e9.chunk.js.LICENSE.txt": "/App-and-Me-Website2020/static/js/2.b45b41e9.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/App-and-Me-Website2020/static/media/NotoSansCJKkr-Regular.19b7d8d4.otf",
     "static/media/App.css": "/App-and-Me-Website2020/static/media/app-and-me-logo.33711969.png",
     "static/media/Main.css": "/App-and-Me-Website2020/static/media/main-img.6dc7aa47.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7801c68d.js",
-    "static/js/2.e805dc57.chunk.js",
+    "static/js/2.b45b41e9.chunk.js",
     "static/css/main.270335b8.chunk.css",
-    "static/js/main.819d48a0.chunk.js"
+    "static/js/main.d43f9f1c.chunk.js"
   ]
 }
