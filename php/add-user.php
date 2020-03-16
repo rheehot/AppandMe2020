@@ -8,46 +8,33 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 require 'db_connection.php';
 // POST DATA
 $data = json_decode(file_get_contents("php://input"));
-echo "<script>console.log( 'PHP_Console: asdf' );</script>";
 
 if(isset($data->code) 
 	&& isset($data->name)
 	&& isset($data->self)
 	&& isset($data->why)
-	&& isset($data->t1)
-	&& isset($data->t2)
-	&& isset($data->t3)
-	&& isset($data->t4)
-	&& isset($data->t5)
+	&& isset($data->five)
 	&& !empty(trim($data->code)) 
 	&& !empty(trim($data->name))
 	&& !empty(trim($data->self))
 	&& !empty(trim($data->why))
-	&& !empty(trim($data->t1))
-	&& !empty(trim($data->t2))
-	&& !empty(trim($data->t3))
-	&& !empty(trim($data->t4))
-	&& !empty(trim($data->t5))
+	&& !empty(trim($data->five))
 	){
     $code = mysqli_real_escape_string($db_conn, trim($data->code));
     $name = mysqli_real_escape_string($db_conn, trim($data->name));
     $self = mysqli_real_escape_string($db_conn, trim($data->self));
     $why = mysqli_real_escape_string($db_conn, trim($data->why));
-    $t1 = mysqli_real_escape_string($db_conn, trim($data->t1));
-    $t2 = mysqli_real_escape_string($db_conn, trim($data->t2));
-    $t3 = mysqli_real_escape_string($db_conn, trim($data->t3));
-    $t4 = mysqli_real_escape_string($db_conn, trim($data->t4));
-    $t5 = mysqli_real_escape_string($db_conn, trim($data->t5));
-    $insertUser = mysqli_query($db_conn,"INSERT INTO `users`(`code`,`name`,`self`,`why`,`t1`,`t2`,`t3`,`t4`,`t5`) VALUES('$code','$name','$self','$why','$t1','$t2','$t3','$t4','$t5')");
+    $five = mysqli_real_escape_string($db_conn, trim($data->five));
+    $insertUser = mysqli_query($db_conn,"INSERT INTO `users`(`code`,`name`,`self`,`why`,`five`) VALUES('$code','$name','$self','$why','$five')");
     if($insertUser){
         $last_id = mysqli_insert_id($db_conn);
-        echo json_encode(["success"=>0,"msg"=>"App&Me 지원 성공!\n수고하셨습니다"]);
+        echo json_encode(["success"=>0,"msg"=>"앱앤미에 지원해주셔서 감사합니다!\n기타 문의사항은 앱앤미 페이스북 페이지를 이용해주세요"]);
     }
     else{
-        echo json_encode(["success"=>0,"msg"=>"제출 실패! 다시 시도해주세요"]);
+        echo json_encode(["success"=>0,"msg"=>"빠지거나 잘못된 항목이 없는지 다시 한 번 확인해주세요"]);
     }
 }
 else{
-    echo json_encode(["success"=>0,"msg"=>"빠진 입력이 없는지 확인해주세요"]);
+    echo json_encode(["success"=>0,"msg"=>"웹페이지에 문제가 발생했습니다\n앱앤미 페이스북 페이지를 통해 문의해주세요"]);
 }
 ?>
