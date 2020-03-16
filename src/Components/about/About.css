@@ -11,8 +11,7 @@
     font-size: 38px;
     text-align: center;
     color: #000000;
-    margin-bottom: 60px;
-    margin-top : 60px;
+    margin: 60px 0 60px;
 }
 
 .about .about-intro h3{
@@ -47,4 +46,24 @@
 
 .about .about-intro table .mar-temp{
     height: 40px;
+}
+
+@media screen and (max-width: 1100px) {
+    
+    .about h1{
+        font-size: 2rem;
+        margin: 50px 0 50px;
+    }
+
+    .about .about-intro h3{
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    .about .about-intro div{
+        font-size: 1rem;
+        margin-bottom: 50px;
+    }
+    .about .about-intro table td{
+        font-size: 1rem;
+    }
 }
