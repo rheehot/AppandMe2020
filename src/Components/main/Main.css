@@ -1,6 +1,7 @@
 @import '../../Fonts/fonts.css';
 
 .main{
+    font-family: "NotoSansCJKKr Regular";
     position: relative;
     width: 100%;
     height: 800px;
@@ -30,6 +31,7 @@
 }
 
 .main .wrap-btn{
+    font-family: "NotoSansCJKKr Bold";
     width: 148px;
     height: 44px;
     border: solid 2px #ffffff;
@@ -52,6 +54,7 @@
 }
 
 .cont-tit{
+    font-family: "NotoSansCJKKr Medium";
     margin-left: 10%;
     font-weight: 500;
     font-size: 50px;
@@ -62,6 +65,7 @@
 }
 
 .cont-sub-tit{
+    font-family: "NotoSansCJKKr Regular";
     margin-left: 10%;
     margin-top: 70px;
     margin-bottom: 50px;
@@ -69,6 +73,7 @@
 }
 
 .cont-cont{
+    font-family: "NotoSansCJKKr Regular";
     margin-left: 10%;
     margin-bottom: 20px;
 }

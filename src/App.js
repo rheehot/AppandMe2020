@@ -32,10 +32,10 @@ class App extends Actions {
     return (
       <Provider value={contextValue}>
         <div className="App">
-          <div className="header font-medium">
+          <div className="header">
             <div className="dropdown">
               <div className="header-img"></div>
-              <NavLink className="nav-title" to="/"><span className="logo-title font-bold">APP &#38; ME</span></NavLink>
+              <NavLink className="nav-title" to="/"><span className="logo-title">APP &#38; ME</span></NavLink>
               <button className="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 
               </button>
@@ -49,7 +49,7 @@ class App extends Actions {
             <ul className="list">
               <li>
                 <div className="header-img"></div>
-                <NavLink className="nav-title" to="/"><span className="logo-title font-bold">APP &#38; ME</span></NavLink>
+                <NavLink className="nav-title" to="/"><span className="logo-title">APP &#38; ME</span></NavLink>
               </li>
               <li>
                 <NavLink className="nav-title"to="/FA" activeStyle={{color:'#ffb0b8'}}>F&#38;A</NavLink>

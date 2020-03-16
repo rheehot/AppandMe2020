@@ -7,11 +7,13 @@
 }
 
 .apply form table{
+    font-family: "NotoSansCJKKr Regular";
     width: 100%;
     margin: 0 auto;
 }
 
 .apply form .tit{
+    font-family: "NotoSansCJKKr Medium";
     font-size: 18px;
     color: #000000;
     padding-top: 60px;
@@ -31,7 +33,7 @@
 
 .apply form table textarea::placeholder{
     font-family:"NotoSansCJKKr Regular";
-    font-size: 22px;
+    font-size: 20px;
     color: #707070;
 }
 
