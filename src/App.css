@@ -61,7 +61,6 @@ body{
   margin-left: -30px;
 }
 
-
 .header .logo-title{
   font-family: "NotoSansCJKKr Bold";
   font-size: 25px;
@@ -81,10 +80,14 @@ body{
   background: #707070;
 }
 
+.content {
+  clear: both;
+}
+
 @media screen and (max-width: 1100px) {
 
   .list{
-    visibility: hidden ;
+    display: none;
   }
 
   .dropdown{
