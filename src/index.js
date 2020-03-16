@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/App-and-Me-Website2020">
             <App exact={true}/>
         </BrowserRouter>
     </StrictMode>,

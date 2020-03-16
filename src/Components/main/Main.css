@@ -35,12 +35,12 @@
     border: solid 2px #ffffff;
     border-radius: 100px;
     text-align: center;
-    line-height: 44px;
+    line-height: 40px;
     margin-left: 10%;
     margin-top: 50px;
 }
 
-.main a, .main a:hover, .main a:active, .main a:visited{
+.main .btn-apply, .main .btn-apply:hover, .main .btn-apply:active, .main .btn-apply:visited{
     font-family: 'NotoSansCJKKr Bold';
     font-size: 16px;
     font-weight: bold;

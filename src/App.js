@@ -33,22 +33,35 @@ class App extends Actions {
       <Provider value={contextValue}>
         <div className="App">
           <div className="header font-medium">
-            <ul>
+            <div className="dropdown">
+              <div className="header-img"></div>
+              <NavLink className="nav-title" to="/"><span className="logo-title font-bold">APP &#38; ME</span></NavLink>
+              <button className="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                
+              </button>
+              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <NavLink className="dropdown-item"to="/About" activeStyle={{color:'#ffb0b8', backgroundColor:'#fff'}}>ABOUT</NavLink>
+                <NavLink className="dropdown-item"to="/Members" activeStyle={{color:'#ffb0b8', backgroundColor:'#fff'}}>MEMBERS</NavLink>
+                <NavLink className="dropdown-item"to="/Apply" activeStyle={{color:'#ffb0b8', backgroundColor:'#fff'}}>APPLY</NavLink>
+                <NavLink className="dropdown-item"to="/FA" activeStyle={{color:'#ffb0b8', backgroundColor:'#fff'}}>F&#38;A</NavLink>
+              </div>
+            </div>
+            <ul className="list">
               <li>
                 <div className="header-img"></div>
-                <NavLink className="nav-title" to="/App-and-Me-Website2020/"><span className="logo-title font-bold">APP &#38; ME</span></NavLink>
+                <NavLink className="nav-title" to="/"><span className="logo-title font-bold">APP &#38; ME</span></NavLink>
               </li>
               <li>
-                <NavLink className="nav-title"to="/App-and-Me-Website2020/FA" activeStyle={{color:'#ffb0b8'}}>F&#38;A</NavLink>
+                <NavLink className="nav-title"to="/FA" activeStyle={{color:'#ffb0b8'}}>F&#38;A</NavLink>
               </li>
               <li>
-                <NavLink className="nav-title"to="/App-and-Me-Website2020/Apply" activeStyle={{color:'#ffb0b8'}}>APPLY</NavLink>
+                <NavLink className="nav-title"to="/Apply" activeStyle={{color:'#ffb0b8'}}>APPLY</NavLink>
               </li>
               <li>
-                <NavLink className="nav-title"to="/App-and-Me-Website2020/Members" activeStyle={{color:'#ffb0b8'}}>MEMBERS</NavLink>
+                <NavLink className="nav-title"to="/Members" activeStyle={{color:'#ffb0b8'}}>MEMBERS</NavLink>
               </li>
               <li>
-                <NavLink className="nav-title"to="/App-and-Me-Website2020/About" activeStyle={{color:'#ffb0b8'}}>ABOUT</NavLink>
+                <NavLink className="nav-title"to="/About" activeStyle={{color:'#ffb0b8'}}>ABOUT</NavLink>
               </li>
               {/* <li>
                 <NavLink to="/Only">O</NavLink>
@@ -57,12 +70,12 @@ class App extends Actions {
           </div>
           <div className="hr"></div>
           <div className="content">
-            <Route path="/App-and-Me-Website2020/" component={Main} exact={true}/>
-            <Route path="/App-and-Me-Website2020/About" component={About}/>
-            <Route path="/App-and-Me-Website2020/Members" component={Members}/>
-            <Route path="/App-and-Me-Website2020/Apply" component={Apply}/>
-            <Route path="/App-and-Me-Website2020/FA" component={FA}/>
-            <Route path="/App-and-Me-Website2020/Only" component={Only}/>
+            <Route path="/" component={Main} exact={true}/>
+            <Route path="/About" component={About}/>
+            <Route path="/Members" component={Members}/>
+            <Route path="/Apply" component={Apply}/>
+            <Route path="/FA" component={FA}/>
+            <Route path="/Only" component={Only}/>
           </div>
           <Footer/>
         </div>

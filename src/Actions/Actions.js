@@ -41,7 +41,7 @@ class Actions extends React.Component{
                 event.target.reset();
             }
             else{
-                alert(data.msg);
+                // alert(data.msg);
             }
         }.bind(this))
         .catch(function (error) {
@@ -57,6 +57,7 @@ class Actions extends React.Component{
                 this.setState({
                     users:data.users.reverse()
                 });
+                
             }
         })
         .catch(error => {
@@ -68,31 +69,74 @@ class Actions extends React.Component{
     insertUser = (event,code,name, self, why, five) => {
         event.preventDefault();
         event.persist();
-        // Axios.post('http://13.124.20.126/add_user.php',{
-        Axios.post('http://localhost/php-react/add-user.php',{
-            code:code,
-            name:name,
-            self:self,
-            why:why,
-            five:five
-        })
-        .then(function ({data}) {
-            if(data.success === 1){
-                this.setState({
-                    users:[
-                        {"id":data.id,"code":code,"name":name,"self":self,"why":why,"five":five},
-                        ...this.state.users
-                    ]
-                });
-                event.target.reset();
+        alert('function insertUser1');
+
+        var url = 'http://3.133.7.62/add-user.php';
+        // var url = 'http://localhost/php-react/add-user.php';
+
+        Axios.post(
+            url,
+            { 
+                code:code,
+                name:name,
+                self:self,
+                why:why,
+                five:five
+            }
+        )
+        .then(function (response){
+            if(response.data.success === 1){
+                console.log(response.data.msg);
             }
             else{
-                alert(data.msg);
+                console.log(response.data.msg);
             }
-        }.bind(this))
+        })
         .catch(function (error) {
-            console.log(error);
+            alert("error : " + error);
         });
+
+        // Axios.post('http://18.216.250.163/add-user.php', {
+        // // Axios.post('http://localhost/php-react/add-user.php',{
+        //     code:'1234',
+        //     name:'name',
+        //     self:'self',
+        //     why:'why',
+        //     five:'five'
+        //   })
+        //   .then(function (data) {
+        //     alert('function insertUser2');
+        //     if(data.data[20] === "1"){
+        //         this.setState({
+        //             users:[
+        //                 {"id":data.id,"code":code,"name":name,"self":self,"why":why,"five":five},
+        //                 ...this.state.users
+        //             ]
+        //         });
+        //         event.target.reset();
+        //         alert("앱앤미에 지원해주셔서 감사합니다:D\n제출 여부를 확인하고 싶다면 앱앤미 페이스북 페이지를 이용해주세요");
+        //     else{
+
+        //     }
+        // }.bind(this))
+        //   .catch(function (error) {
+        //     alert(error);
+        //   });
+
+
+        // Axios.post('http://18.216.250.163/add-user.php',{
+
+        // }).then(function (data) {
+        //     
+        //     }
+        //     else{
+        //         // alert(data.msg);
+        //         alert("지원서 제출에 실패하였습니다.\n빠지거나 잘못 기입한 항목이 있는지 확인해주세요ㅜㅜ");
+        //     }
+        // }.bind(this))
+        // .catch(function (error) {
+        //     console.log(error);
+        // });
     }
 }
 
