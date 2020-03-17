@@ -59,11 +59,17 @@
         font-size: 1rem;
         margin-bottom: 50px;
     }
+
     .about .about-intro div{
-        font-size: 1rem;
+        font-size: 0.9rem;
         margin-bottom: 50px;
     }
+    
     .about .about-intro table td{
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .about .about-intro table .temp{
+        text-align: center;
     }
 }

@@ -34,3 +34,24 @@
 .member:last-child() .mem-major{
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1100px) {
+
+    .member{
+        width: 105px;
+        margin-bottom: 20px;
+    }
+
+    .member .mem-img{
+        width: 105px;
+    }
+
+    .member .mem-name{
+        font-size: 0.9rem;
+    }
+
+    .member .mem-major{
+        font-size: 0.7rem;
+        margin-bottom: 40px;
+    }
+}
