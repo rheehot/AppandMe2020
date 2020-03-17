@@ -64,3 +64,28 @@
 .apply form .tr-button{
     text-align: right;
 }
+
+@media screen and (max-width: 1100px) {
+    
+    .apply form .tit{
+        font-size: 1.1rem;
+        padding-top: 50px;
+    }
+    
+    .apply form table .textarea{
+        overflow: hidden;
+        height: 50px;
+        font-size: 1rem;
+    }
+
+    .apply form table textarea::placeholder{
+        font-size: 0.8em;
+    }
+
+    .apply form button{
+        width: 100px;
+        height: 40px;
+        margin: 50px 0 120px;
+        font-size: 1rem;
+    }
+}

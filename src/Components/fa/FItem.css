@@ -58,7 +58,7 @@
 @media screen and (max-width: 1100px) {
     
     .frequently details summary{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .frequently details summary:after {
@@ -71,6 +71,6 @@
     }
 
     .frequently details span{
-        font-size: 16px;
+        font-size: 15px;
     }
 }

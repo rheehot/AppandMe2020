@@ -77,3 +77,36 @@
     margin-left: 10%;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1100px) {
+
+    .main .wrap-btn{
+        width: 95px;
+        height: 35px;
+        line-height: 30px;
+    }
+
+    .main .btn-apply, .main .btn-apply:hover, .main .btn-apply:active, .main .btn-apply:visited{
+        font-size: 0.8rem;
+    }
+
+    .cont-tit{
+        font-size: 1.1rem;
+        margin: 0 8% 0 8%;
+    }
+
+    .cont-tit:first-child{
+        margin: 0 8% 0 8%;
+        padding-top: 35%;
+    }
+
+    .cont-sub-tit{
+        margin: 60px 8% 40px 8%;
+        font-size: 1rem;
+    }
+
+    .cont-cont{
+        font-size: 0.8rem;
+        margin: 0 8% 20px 8%;
+    }
+}
