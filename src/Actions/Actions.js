@@ -69,9 +69,7 @@ class Actions extends React.Component{
     insertUser = (event,code,name, self, why, five) => {
         event.preventDefault();
         event.persist();
-        alert('function insertUser1');
-
-        var url = 'http://18.219.192.68/add-user.php';
+        var url = 'http://appandme2020.emirim.kr/add-user.php';
         // var url = 'http://localhost/php-react/add-user.php';
 
         Axios.post(
@@ -86,10 +84,17 @@ class Actions extends React.Component{
         )
         .then(function (response){
             if(response.data.success === 1){
-                console.log(response.data.msg);
+                // this.setState({
+                //     users:[
+                //         {"id":response.data.id,"code":code,"name":name,"self":self,"why":why,"five":five},
+                //         ...this.state.users
+                //     ]
+                // });
+                event.target.reset();
+                alert(response.data.msg);
             }
             else{
-                console.log(response.data.msg);
+                alert(response.data.msg);
             }
         })
         .catch(function (error) {

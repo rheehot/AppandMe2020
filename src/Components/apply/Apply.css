@@ -61,9 +61,6 @@
     outline: none;
 }
 
-.apply form button:hover{
-    color: blue;
-}
 .apply form .tr-button{
     text-align: right;
 }
