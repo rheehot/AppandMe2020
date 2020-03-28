@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import Intro from '../intro/Intro.js';
+import Axios from 'axios';
 import './Apply.css';
 import {AppContext} from '../../Context.js';
 
@@ -7,8 +8,42 @@ class Apply extends Component {
     static contextType = AppContext;
 
     insertUser = (event) => {
-        // alert('click!');
-        this.context.insertUser(event,this.code.value,this.name.value,this.self.value,this.why.value,this.five.value);
+        event.preventDefault();
+        event.persist();
+        // var url = 'http://10.96.122.37/add-post.php';
+        var url = 'https://appandme.run.goorm.io/add-user.php';
+
+        Axios.post(
+            url,
+            { 
+                code:this.code.value,
+                name:this.name.value,
+                self:this.self.value,
+                why:this.why.value,
+                five:this.five.value
+            }
+        )
+        .then(function (response){
+            alert('hey!');
+            if(response.data.success === 1){
+                // this.setState({
+                //     users:[
+                //         {"id":response.data.id,"code":code,"name":name,"self":self,"why":why,"five":five},
+                //         ...this.state.users
+                //     ]
+                // });
+                event.target.reset();
+                alert(response.data.msg);
+            }
+            else{
+                alert(response.data.msg);
+            }
+        })
+        .catch(function (error) {
+            alert("error : " + error);
+        });
+        // // alert('click!');
+        // this.context.insertUser(event,this.code.value,this.name.value,this.self.value,this.why.value,this.five.value);
     }
 
     render(){

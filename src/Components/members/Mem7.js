@@ -22,7 +22,7 @@ class Mem7 extends Component{
                 {
                     name: "이현수",
                     major: "뉴미디어솔루션과",
-                    //img: "",
+                    img: "https://github.com/Sookhee/App-and-Me-Website2020/blob/master/src/img/%EC%9D%B4%ED%98%84%EC%88%98.JPG?raw=true",
                     facebookUrl: "https://www.facebook.com/profile.php?id=100009075758105"
                 },
                 {

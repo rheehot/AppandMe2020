@@ -5,8 +5,8 @@ header("Access-Control-Allow-Methods: POST");
 header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
-require 'db_connection.php';
-// POST DATA
+$db_conn = mysqli_connect("3.12.245.245","sookhee","gkh10004","appandme");
+
 $data = json_decode(file_get_contents("php://input"));
 
 if(isset($data->code) 
@@ -32,9 +32,11 @@ if(isset($data->code)
     }
     else{
         echo json_encode(["success"=>0,"msg"=>"빠지거나 잘못된 항목이 없는지 다시 한 번 확인해주세요"]);
+        
     }
 }
 else{
-    echo json_encode(["success"=>0,"msg"=>"웹페이지에 문제가 발생했습니다\n앱앤미 페이스북 페이지를 통해 문의해주세요"]);
+    echo json_encode(["success"=>0,"msg"=>"false"]);
+    $insertUser = mysqli_query($db_conn,"INSERT INTO `users`(`code`,`name`,`self`,`why`,`five`) VALUES('1234','a','b','c','d')");
 }
 ?>

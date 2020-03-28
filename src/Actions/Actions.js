@@ -6,6 +6,10 @@ class Actions extends React.Component{
         posts:[]
     }
 
+    config = {
+        headers: { "x-access-token": "token-value" },
+    }
+
     // FETCH POSTS FROM DATABASE
     fetchPosts = () => {
         Axios.get('http://localhost/php-react/all-posts.php')
@@ -69,8 +73,8 @@ class Actions extends React.Component{
     insertUser = (event,code,name, self, why, five) => {
         event.preventDefault();
         event.persist();
-        var url = 'http://appandme2020.emirim.kr/add-user.php';
-        // var url = 'http://localhost/php-react/add-user.php';
+        // var url = 'http://10.96.122.37/add-post.php';
+        var url = 'http://localhost/add-user.php';
 
         Axios.post(
             url,
@@ -128,20 +132,6 @@ class Actions extends React.Component{
         //     alert(error);
         //   });
 
-
-        // Axios.post('http://18.216.250.163/add-user.php',{
-
-        // }).then(function (data) {
-        //     
-        //     }
-        //     else{
-        //         // alert(data.msg);
-        //         alert("지원서 제출에 실패하였습니다.\n빠지거나 잘못 기입한 항목이 있는지 확인해주세요ㅜㅜ");
-        //     }
-        // }.bind(this))
-        // .catch(function (error) {
-        //     console.log(error);
-        // });
     }
 }
 

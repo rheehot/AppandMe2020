@@ -54,7 +54,7 @@ body{
   float:left;
   width: 54px;
   height: 54px;
-  background-image: url('./img/app-and-me-logo.png');
+  background-image: url('./img/appandme_logo.png');
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 34px;
@@ -74,9 +74,12 @@ body{
   color: #000000;
 }
 
-.hr{
+hr{
   width: 100%;
   height: 1px;
+  border: 0;
+  margin: 0;
+  padding: 0;
   background: #707070;
 }
 
