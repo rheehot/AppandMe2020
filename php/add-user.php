@@ -36,7 +36,6 @@ if(isset($data->code)
     }
 }
 else{
-    echo json_encode(["success"=>0,"msg"=>"false"]);
-    $insertUser = mysqli_query($db_conn,"INSERT INTO `users`(`code`,`name`,`self`,`why`,`five`) VALUES('1234','a','b','c','d')");
+    echo json_encode(["success"=>0,"msg"=>"Network error:\n앱앤미 페이스북 페이지를 통해 문의해주세요"]);
 }
 ?>

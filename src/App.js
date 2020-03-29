@@ -1,6 +1,4 @@
-import React from 'react';
-import Actions from './Actions/Actions';
-import {Provider} from './Context';
+import React, {Component} from 'react';
 import {Route, NavLink} from 'react-router-dom';
 import './App.css';
 import Main from './Components/main/Main';
@@ -11,7 +9,7 @@ import FA from './Components/fa/FA';
 import Only from './Components/only/Only';
 import Footer from './Components/footer/Footer';
 
-class App extends Actions {
+class App extends Component {
 
   componentDidMount(){
     console.log("%c안녕하세요! 퀴즈를 맞춘 것을 축하해요!", 'color:#ffb0b8; font-size:25px;');
@@ -20,17 +18,9 @@ class App extends Actions {
   }
 
   render(){
-    const contextValue = {
-      all_users:this.state.users,
-      all_posts:this.state.posts,
-      get_users:this.fetchUsers,
-      insertUser:this.insertUser,
-      get_posts:this.fetchPosts,
-      insertPost:this.insertPost
-  }
 
     return (
-      <Provider value={contextValue}>
+      <div>
         <div className="App">
           <div className="header">
             <div className="dropdown">
@@ -79,7 +69,7 @@ class App extends Actions {
           </div>
           <Footer/>
         </div>
-      </Provider>
+      </div>
     )
   }
 }

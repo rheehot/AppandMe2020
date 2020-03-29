@@ -11,7 +11,7 @@ class Apply extends Component {
         event.preventDefault();
         event.persist();
         // var url = 'http://10.96.122.37/add-post.php';
-        var url = 'https://appandme.run.goorm.io/add-user.php';
+        var url = 'https://appandme.emirim.kr/add-user.php';
 
         Axios.post(
             url,
@@ -24,7 +24,6 @@ class Apply extends Component {
             }
         )
         .then(function (response){
-            alert('hey!');
             if(response.data.success === 1){
                 // this.setState({
                 //     users:[
