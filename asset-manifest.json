@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/AppandMe-Website2020/static/css/main.44197bea.chunk.css",
-    "main.js": "/AppandMe-Website2020/static/js/main.9cb59b8b.chunk.js",
-    "main.js.map": "/AppandMe-Website2020/static/js/main.9cb59b8b.chunk.js.map",
-    "runtime-main.js": "/AppandMe-Website2020/static/js/runtime-main.ccef99d1.js",
-    "runtime-main.js.map": "/AppandMe-Website2020/static/js/runtime-main.ccef99d1.js.map",
-    "static/js/2.447d393f.chunk.js": "/AppandMe-Website2020/static/js/2.447d393f.chunk.js",
-    "static/js/2.447d393f.chunk.js.map": "/AppandMe-Website2020/static/js/2.447d393f.chunk.js.map",
-    "index.html": "/AppandMe-Website2020/index.html",
-    "precache-manifest.2d1313e99099f1f366949f12d2d5abaa.js": "/AppandMe-Website2020/precache-manifest.2d1313e99099f1f366949f12d2d5abaa.js",
-    "service-worker.js": "/AppandMe-Website2020/service-worker.js",
-    "static/css/main.44197bea.chunk.css.map": "/AppandMe-Website2020/static/css/main.44197bea.chunk.css.map",
-    "static/js/2.447d393f.chunk.js.LICENSE.txt": "/AppandMe-Website2020/static/js/2.447d393f.chunk.js.LICENSE.txt",
-    "static/media/fonts.css": "/AppandMe-Website2020/static/media/NotoSansCJKkr-Regular.19b7d8d4.otf",
-    "static/media/App.css": "/AppandMe-Website2020/static/media/app-and-me-logo.33711969.png",
-    "static/media/Main.css": "/AppandMe-Website2020/static/media/main-img.6dc7aa47.png"
+    "main.css": "/AppandMe2020/static/css/main.60bab7cf.chunk.css",
+    "main.js": "/AppandMe2020/static/js/main.df5531d8.chunk.js",
+    "main.js.map": "/AppandMe2020/static/js/main.df5531d8.chunk.js.map",
+    "runtime-main.js": "/AppandMe2020/static/js/runtime-main.99e26063.js",
+    "runtime-main.js.map": "/AppandMe2020/static/js/runtime-main.99e26063.js.map",
+    "static/js/2.447d393f.chunk.js": "/AppandMe2020/static/js/2.447d393f.chunk.js",
+    "static/js/2.447d393f.chunk.js.map": "/AppandMe2020/static/js/2.447d393f.chunk.js.map",
+    "index.html": "/AppandMe2020/index.html",
+    "precache-manifest.98688a3f46ed36dfe94242641043da49.js": "/AppandMe2020/precache-manifest.98688a3f46ed36dfe94242641043da49.js",
+    "service-worker.js": "/AppandMe2020/service-worker.js",
+    "static/css/main.60bab7cf.chunk.css.map": "/AppandMe2020/static/css/main.60bab7cf.chunk.css.map",
+    "static/js/2.447d393f.chunk.js.LICENSE.txt": "/AppandMe2020/static/js/2.447d393f.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/AppandMe2020/static/media/NotoSansCJKkr-Regular.19b7d8d4.otf",
+    "static/media/App.css": "/AppandMe2020/static/media/app-and-me-logo.33711969.png",
+    "static/media/Main.css": "/AppandMe2020/static/media/main-img.6dc7aa47.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ccef99d1.js",
+    "static/js/runtime-main.99e26063.js",
     "static/js/2.447d393f.chunk.js",
-    "static/css/main.44197bea.chunk.css",
-    "static/js/main.9cb59b8b.chunk.js"
+    "static/css/main.60bab7cf.chunk.css",
+    "static/js/main.df5531d8.chunk.js"
   ]
 }
